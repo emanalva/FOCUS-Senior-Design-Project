@@ -13,7 +13,7 @@ Includes design documents for the motor control subsystem such as schematics.
 #### [can-bus-communication](./can-bus-communication/)
 Documentation and implementation details for the CAN bus communication system used for data exchange between subsystems.
 
-#### [SD1 Final Report](./SD1%20Final%20Report/)
+#### [SD1 Final Report](./SD1%20Final%20Report.pdf/)
 The comprehensive final report summarizing all aspects of the project for Senior Design 1.
 
 <!-- #### [Presentations](./Presentations/) ADD SLIDES OR SOMETHING
