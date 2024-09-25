@@ -87,7 +87,7 @@ void loop() {
   const int minAnalog = 0;
   const int maxAnalog = 1023;
 
-  // Map analog readings (200-800) to HID joystick range (-32767 to +32767)
+  // Map analog readings (0-1000) to HID joystick range (-32767 to +32767)
   int32_t mappedJoy1X = map(constrain(joy1XVal, minAnalog, maxAnalog), minAnalog, maxAnalog, -32767, 32767);
   int32_t mappedJoy1Y = map(constrain(joy1YVal, minAnalog, maxAnalog), minAnalog, maxAnalog, -32767, 32767);
   int32_t mappedJoy2X = map(constrain(joy2XVal, minAnalog, maxAnalog), minAnalog, maxAnalog, -32767, 32767);
