@@ -93,12 +93,15 @@ void loop() {
   int32_t mappedJoy2X = map(constrain(joy2XVal, minAnalog, maxAnalog), minAnalog, maxAnalog, -32767, 32767);
   int32_t mappedJoy2Y = map(constrain(joy2YVal, minAnalog, maxAnalog), minAnalog, maxAnalog, -32767, 32767);
 
-  // Optional: Implement dead zones to prevent drift
-  const int32_t deadZone = 0; // Adjust as necessary
+  // Optional: Implement dead zones to prevent drift.
+  // Optimized to within 0.00002 on a mapped scale from -1 to +1.
+  // i.e. (-32767 to +32767) mapped to (-1 to +1), and within 0.00002 from dead center without input.
+  // This is just the mapping the testing software "https://hardwaretester.com/gamepad" chose.
+  const int32_t deadZone = 1000; // Adjust as necessary
   mappedJoy1X = (abs(mappedJoy1X) < deadZone) ? 0 : mappedJoy1X;
   mappedJoy1Y = (abs(mappedJoy1Y) < deadZone) ? 0 : mappedJoy1Y;
   mappedJoy2X = (abs(mappedJoy2X) < deadZone) ? 0 : mappedJoy2X;
-  mappedJoy2Y = (abs(mappedJoy2Y) < deadZone) ? 0 : mappedJoy2Y;
+  mappedJoy2Y = (abs(mappedJoy2Y) < 1500) ? 0 : mappedJoy2Y; // Needed larger deadzone
 
   // Update joystick axes
   Joystick.setXAxis(mappedJoy1X);   // Joystick 1 X-axis
