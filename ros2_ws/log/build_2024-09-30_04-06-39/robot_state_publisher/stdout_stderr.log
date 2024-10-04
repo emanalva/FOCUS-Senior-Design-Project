@@ -1,0 +1,19 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring incomplete, errors occurred!
+[31mCMake Error at CMakeLists.txt:4 (message):
+  https://github.com/ros2/robot_state_publisher is deprecated in favor of the
+  'ros2' branch of https://github.com/ros/robot_state_publisher.git.  Please
+  update your repository to point to the new location.
+
+[0m

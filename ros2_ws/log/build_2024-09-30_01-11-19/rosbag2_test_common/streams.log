@@ -1,0 +1,54 @@
+[0.015s] Invoking command in '/home/pheonix/ros2_ws/build/rosbag2_test_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/rosbag2_test_common -- -j2 -l2
+[0.114s] Built target ament_cmake_python_copy_rosbag2_test_common
+[0.280s] running egg_info
+[0.294s] writing rosbag2_test_common.egg-info/PKG-INFO
+[0.295s] writing dependency_links to rosbag2_test_common.egg-info/dependency_links.txt
+[0.295s] writing top-level names to rosbag2_test_common.egg-info/top_level.txt
+[0.348s] reading manifest file 'rosbag2_test_common.egg-info/SOURCES.txt'
+[0.349s] writing manifest file 'rosbag2_test_common.egg-info/SOURCES.txt'
+[0.370s] Built target ament_cmake_python_build_rosbag2_test_common_egg
+[0.378s] Invoked command in '/home/pheonix/ros2_ws/build/rosbag2_test_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/rosbag2_test_common -- -j2 -l2
+[0.441s] Invoking command in '/home/pheonix/ros2_ws/build/rosbag2_test_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/rosbag2_test_common
+[0.449s] -- Install configuration: ""
+[0.449s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common
+[0.449s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common
+[0.450s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/process_execution_helpers_unix.hpp
+[0.450s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/process_execution_helpers.hpp
+[0.450s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/service_manager.hpp
+[0.450s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/memory_management.hpp
+[0.450s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/wait_for.hpp
+[0.450s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/publication_manager.hpp
+[0.451s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/client_manager.hpp
+[0.451s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/subscription_manager.hpp
+[0.451s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/process_execution_helpers_windows.hpp
+[0.451s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/temporary_directory_fixture.hpp
+[0.451s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/include/rosbag2_test_common/rosbag2_test_common/tested_storage_ids.hpp
+[0.451s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/environment/pythonpath.sh
+[0.451s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/environment/pythonpath.dsv
+[0.451s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/lib/python3.12/site-packages/rosbag2_test_common-0.29.0-py3.12.egg-info
+[0.451s] -- Installing: /home/pheonix/ros2_ws/install/rosbag2_test_common/lib/python3.12/site-packages/rosbag2_test_common-0.29.0-py3.12.egg-info/SOURCES.txt
+[0.451s] -- Installing: /home/pheonix/ros2_ws/install/rosbag2_test_common/lib/python3.12/site-packages/rosbag2_test_common-0.29.0-py3.12.egg-info/dependency_links.txt
+[0.451s] -- Installing: /home/pheonix/ros2_ws/install/rosbag2_test_common/lib/python3.12/site-packages/rosbag2_test_common-0.29.0-py3.12.egg-info/PKG-INFO
+[0.452s] -- Installing: /home/pheonix/ros2_ws/install/rosbag2_test_common/lib/python3.12/site-packages/rosbag2_test_common-0.29.0-py3.12.egg-info/top_level.txt
+[0.452s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/lib/python3.12/site-packages/rosbag2_test_common
+[0.452s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/lib/python3.12/site-packages/rosbag2_test_common/__init__.py
+[0.480s] Listing '/home/pheonix/ros2_ws/install/rosbag2_test_common/lib/python3.12/site-packages/rosbag2_test_common'...
+[0.484s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/ament_index/resource_index/package_run_dependencies/rosbag2_test_common
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/ament_index/resource_index/parent_prefix_path/rosbag2_test_common
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/environment/ament_prefix_path.sh
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/environment/ament_prefix_path.dsv
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/environment/path.sh
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/environment/path.dsv
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/local_setup.bash
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/local_setup.sh
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/local_setup.zsh
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/local_setup.dsv
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/package.dsv
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/ament_index/resource_index/packages/rosbag2_test_common
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/cmake/export_rosbag2_test_commonExport.cmake
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/cmake/ament_cmake_export_targets-extras.cmake
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/cmake/rosbag2_test_commonConfig.cmake
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/cmake/rosbag2_test_commonConfig-version.cmake
+[0.492s] -- Up-to-date: /home/pheonix/ros2_ws/install/rosbag2_test_common/share/rosbag2_test_common/package.xml

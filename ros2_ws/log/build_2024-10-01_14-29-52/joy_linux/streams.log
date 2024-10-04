@@ -1,0 +1,68 @@
+[0.006s] Invoking command in '/home/pheonix/ros2_ws/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy_linux
+[0.205s] -- The C compiler identification is GNU 13.2.0
+[0.270s] -- The CXX compiler identification is GNU 13.2.0
+[0.312s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.417s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.419s] -- Detecting C compile features
+[0.420s] -- Detecting C compile features - done
+[0.439s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.563s] -- Detecting CXX compile features
+[0.563s] -- Detecting CXX compile features - done
+[0.575s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.706s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.854s] -- Found diagnostic_msgs: 5.3.5 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)
+[0.911s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.928s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.964s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.092s] -- Found diagnostic_updater: 4.2.1 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[1.177s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.183s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.380s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.457s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.477s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.621s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.719s] -- Looking for include file linux/joystick.h
+[1.844s] -- Looking for include file linux/joystick.h - found
+[1.848s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.999s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.999s] -- Configured cppcheck include dirs: /home/pheonix/ros2_ws/src/joystick_drivers/joy_linux/msg/cpp
+[1.999s] -- Configured cppcheck exclude dirs and/or files: 
+[2.001s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.001s] -- Configured cpplint exclude dirs and/or files: 
+[2.003s] -- Added test 'lint_cmake' to check CMake code style
+[2.005s] -- Added test 'uncrustify' to check C / C++ code style
+[2.005s] -- Configured uncrustify additional arguments: 
+[2.014s] -- Added test 'xmllint' to check XML markup files
+[2.015s] -- Configuring done (2.0s)
+[2.024s] -- Generating done (0.0s)
+[2.024s] -- Build files have been written to: /home/pheonix/ros2_ws/build/joy_linux
+[2.037s] Invoked command in '/home/pheonix/ros2_ws/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy_linux
+[2.038s] Invoking command in '/home/pheonix/ros2_ws/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/joy_linux -- -j2 -l2
+[2.110s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_linux_node.dir/src/joy_linux_node.cpp.o[0m
+[7.998s] [100%] [32m[1mLinking CXX executable joy_linux_node[0m
+[8.231s] [100%] Built target joy_linux_node
+[8.242s] Invoked command in '/home/pheonix/ros2_ws/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/joy_linux -- -j2 -l2
+[8.279s] Invoking command in '/home/pheonix/ros2_ws/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/joy_linux
+[8.286s] -- Install configuration: ""
+[8.286s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/lib/joy_linux/joy_linux_node
+[8.288s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/joy_linux/lib/joy_linux/joy_linux_node" to ""
+[8.288s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/ament_index/resource_index/package_run_dependencies/joy_linux
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/ament_index/resource_index/parent_prefix_path/joy_linux
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.sh
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.dsv
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/environment/path.sh
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/environment/path.dsv
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/local_setup.bash
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/local_setup.sh
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/local_setup.zsh
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/local_setup.dsv
+[8.289s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.dsv
+[8.290s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/ament_index/resource_index/packages/joy_linux
+[8.290s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig.cmake
+[8.290s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig-version.cmake
+[8.290s] -- Installing: /home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.xml
+[8.292s] Invoked command in '/home/pheonix/ros2_ws/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/joy_linux

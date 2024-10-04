@@ -1,0 +1,20 @@
+[0.614s] Invoking command in '/home/pheonix/ros2_ws/src/launch_ros/ros2launch': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_ros:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/ros2launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/ros2launch/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2launch build --build-base /home/pheonix/ros2_ws/build/ros2launch/build install --record /home/pheonix/ros2_ws/build/ros2launch/install.log --single-version-externally-managed install_data
+[0.786s] running egg_info
+[0.798s] writing ../../../build/ros2launch/ros2launch.egg-info/PKG-INFO
+[0.804s] writing dependency_links to ../../../build/ros2launch/ros2launch.egg-info/dependency_links.txt
+[0.804s] writing entry points to ../../../build/ros2launch/ros2launch.egg-info/entry_points.txt
+[0.810s] writing requirements to ../../../build/ros2launch/ros2launch.egg-info/requires.txt
+[0.821s] writing top-level names to ../../../build/ros2launch/ros2launch.egg-info/top_level.txt
+[0.859s] reading manifest file '../../../build/ros2launch/ros2launch.egg-info/SOURCES.txt'
+[0.860s] writing manifest file '../../../build/ros2launch/ros2launch.egg-info/SOURCES.txt'
+[0.861s] running build
+[0.861s] running build_py
+[0.865s] running install
+[0.868s] running install_lib
+[0.886s] running install_data
+[0.887s] running install_egg_info
+[0.899s] removing '/home/pheonix/ros2_ws/install/ros2launch/lib/python3.12/site-packages/ros2launch-0.27.2-py3.12.egg-info' (and everything under it)
+[0.899s] Copying ../../../build/ros2launch/ros2launch.egg-info to /home/pheonix/ros2_ws/install/ros2launch/lib/python3.12/site-packages/ros2launch-0.27.2-py3.12.egg-info
+[0.901s] running install_scripts
+[0.971s] writing list of installed files to '/home/pheonix/ros2_ws/build/ros2launch/install.log'
+[1.004s] Invoked command in '/home/pheonix/ros2_ws/src/launch_ros/ros2launch' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_ros:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/ros2launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/ros2launch/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2launch build --build-base /home/pheonix/ros2_ws/build/ros2launch/build install --record /home/pheonix/ros2_ws/build/ros2launch/install.log --single-version-externally-managed install_data

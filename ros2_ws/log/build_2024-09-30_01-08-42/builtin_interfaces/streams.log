@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/pheonix/ros2_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/builtin_interfaces
+[0.071s] -- The C compiler identification is GNU 13.2.0
+[0.115s] -- The CXX compiler identification is GNU 13.2.0
+[0.147s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.259s] -- Detecting CXX compiler ABI info
+[0.354s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.364s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.561s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.692s] -- Found rosidl_core_generators: 0.2.0 (/opt/ros/jazzy/share/rosidl_core_generators/cmake)
+[0.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.904s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.432s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.434s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.439s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.444s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.294s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.398s] -- Found PythonExtra: /usr/bin/python3  
+[2.761s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.790s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[2.794s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[2.798s] -- Configuring done (2.8s)
+[2.815s] -- Generating done (0.0s)
+[2.816s] -- Build files have been written to: /home/pheonix/ros2_ws/build/builtin_interfaces

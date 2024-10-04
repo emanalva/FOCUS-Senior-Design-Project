@@ -1,0 +1,8 @@
+Built target ament_cmake_python_copy_rosbag2_test_common
+running egg_info
+writing rosbag2_test_common.egg-info/PKG-INFO
+writing dependency_links to rosbag2_test_common.egg-info/dependency_links.txt
+writing top-level names to rosbag2_test_common.egg-info/top_level.txt
+reading manifest file 'rosbag2_test_common.egg-info/SOURCES.txt'
+writing manifest file 'rosbag2_test_common.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_rosbag2_test_common_egg

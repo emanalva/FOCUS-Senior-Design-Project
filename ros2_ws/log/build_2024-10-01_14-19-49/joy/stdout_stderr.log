@@ -1,0 +1,8 @@
+[33mCMake Warning:
+  Ignoring extra path from command line:
+
+   "/home/pheonix/ros2_ws/src/joy"
+
+[0m
+[0mCMake Error: The source directory "/home/pheonix/ros2_ws/src/joy" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.[0m

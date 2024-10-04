@@ -1,0 +1,3 @@
+/home/pheonix/ros2_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake
+/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport-noconfig.cmake

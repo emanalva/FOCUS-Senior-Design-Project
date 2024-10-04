@@ -1,0 +1,1 @@
+Invoking command in '/home/pheonix/ros2_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/rcl_interfaces/builtin_interfaces -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/builtin_interfaces

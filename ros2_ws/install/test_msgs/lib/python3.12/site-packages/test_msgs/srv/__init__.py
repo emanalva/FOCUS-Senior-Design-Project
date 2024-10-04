@@ -1,0 +1,12 @@
+from test_msgs.srv._arrays import Arrays  # noqa: F401
+from test_msgs.srv._arrays import Arrays_Event  # noqa: F401
+from test_msgs.srv._arrays import Arrays_Request  # noqa: F401
+from test_msgs.srv._arrays import Arrays_Response  # noqa: F401
+from test_msgs.srv._basic_types import BasicTypes  # noqa: F401
+from test_msgs.srv._basic_types import BasicTypes_Event  # noqa: F401
+from test_msgs.srv._basic_types import BasicTypes_Request  # noqa: F401
+from test_msgs.srv._basic_types import BasicTypes_Response  # noqa: F401
+from test_msgs.srv._empty import Empty  # noqa: F401
+from test_msgs.srv._empty import Empty_Event  # noqa: F401
+from test_msgs.srv._empty import Empty_Request  # noqa: F401
+from test_msgs.srv._empty import Empty_Response  # noqa: F401

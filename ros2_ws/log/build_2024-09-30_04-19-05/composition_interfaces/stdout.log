@@ -1,0 +1,210 @@
+[  1%] Built target composition_interfaces__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_copy_composition_interfaces
+[  3%] Built target composition_interfaces__cpp
+[ 24%] Built target composition_interfaces__rosidl_generator_c
+[ 33%] Built target composition_interfaces__rosidl_typesupport_cpp
+running egg_info
+[ 42%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c
+writing composition_interfaces.egg-info/PKG-INFO
+writing dependency_links to composition_interfaces.egg-info/dependency_links.txt
+writing top-level names to composition_interfaces.egg-info/top_level.txt
+[ 51%] Built target composition_interfaces__rosidl_typesupport_introspection_c
+reading manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[ 61%] Built target composition_interfaces__rosidl_typesupport_c
+[ 61%] Built target ament_cmake_python_build_composition_interfaces_egg
+[ 70%] Built target composition_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 79%] Built target composition_interfaces__rosidl_typesupport_introspection_cpp
+[ 79%] Built target composition_interfaces
+[ 81%] Built target composition_interfaces__py
+[ 88%] Built target composition_interfaces__rosidl_generator_py
+[ 92%] Built target composition_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 96%] Built target composition_interfaces_s__rosidl_typesupport_introspection_c
+[100%] Built target composition_interfaces_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/ament_index/resource_index/rosidl_interfaces/composition_interfaces
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.json
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.json
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.json
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__description.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__description.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__description.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.sh
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.dsv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.hpp
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__builder.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__traits.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__builder.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__traits.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__traits.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__builder.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.hpp
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/dds_fastrtps
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+-- Up-to-date: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.cpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.cpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.cpp
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.sh
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.dsv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.2.0-py3.12.egg-info
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.2.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.2.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.2.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.2.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/__init__.py
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node.py
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes_s.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node_s.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node_s.c
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/__init__.py
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes.py
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node.py
+Listing '/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces'...
+Compiling '/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/__init__.py'...
+Listing '/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv'...
+Compiling '/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/__init__.py'...
+Compiling '/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes.py'...
+Compiling '/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node.py'...
+Compiling '/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node.py'...
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.idl
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.idl
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.idl
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.srv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.srv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.srv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/ament_index/resource_index/package_run_dependencies/composition_interfaces
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/ament_index/resource_index/parent_prefix_path/composition_interfaces
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/path.sh
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/environment/path.dsv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/local_setup.bash
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/local_setup.sh
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/local_setup.zsh
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/local_setup.dsv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/package.dsv
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/ament_index/resource_index/packages/composition_interfaces
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig-version.cmake
+-- Installing: /home/pheonix/ros2_ws/install/composition_interfaces/share/composition_interfaces/package.xml

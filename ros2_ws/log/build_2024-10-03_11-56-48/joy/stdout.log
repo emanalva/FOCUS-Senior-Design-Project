@@ -1,0 +1,39 @@
+[ 20%] Built target joy
+[ 40%] Built target joy_node
+[ 60%] Built target game_controller
+[ 80%] Built target game_controller_node
+[100%] Built target joy_enumerate_devices
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/lib/joy/joy_node
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/lib/joy/game_controller_node
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/lib/joy/joy_enumerate_devices
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/include/joy/joy/game_controller.hpp
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/include/joy/joy/joy.hpp
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/config/joy-params.yaml
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/launch/joy-composed-launch.py
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/launch/joy-launch.py
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/ament_index/resource_index/package_run_dependencies/joy
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/ament_index/resource_index/parent_prefix_path/joy
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/environment/path.sh
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/environment/path.dsv
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/local_setup.bash
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/local_setup.sh
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/local_setup.zsh
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/local_setup.dsv
+-- Symlinking: /home/pheonix/ros2_ws/install/joy/share/joy/package.dsv
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/ament_index/resource_index/packages/joy
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/ament_index/resource_index/rclcpp_components/joy
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/cmake/joyConfig.cmake
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/cmake/joyConfig-version.cmake
+-- Up-to-date symlink: /home/pheonix/ros2_ws/install/joy/share/joy/package.xml
+-- Up-to-date: /home/pheonix/ros2_ws/install/joy/lib/libjoy.so
+-- Up-to-date: /home/pheonix/ros2_ws/install/joy/lib/libgame_controller.so
+-- Up-to-date: /home/pheonix/ros2_ws/install/joy/share/joy/cmake/export_joyExport.cmake
+-- Up-to-date: /home/pheonix/ros2_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake
+-- Up-to-date: /home/pheonix/ros2_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake
+-- Up-to-date: /home/pheonix/ros2_ws/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake

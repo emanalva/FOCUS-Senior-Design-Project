@@ -1,0 +1,32 @@
+[0.024s] Invoking command in '/home/pheonix/ros2_ws/build/joy': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joystick_drivers/joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy
+[0.216s] -- The C compiler identification is GNU 13.2.0
+[0.378s] -- The CXX compiler identification is GNU 13.2.0
+[0.408s] -- Detecting C compiler ABI info
+[0.690s] -- Detecting C compiler ABI info - done
+[0.693s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.693s] -- Detecting C compile features
+[0.693s] -- Detecting C compile features - done
+[0.716s] -- Detecting CXX compiler ABI info
+[1.013s] -- Detecting CXX compiler ABI info - done
+[1.022s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.022s] -- Detecting CXX compile features
+[1.022s] -- Detecting CXX compile features - done
+[1.043s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[1.044s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.044s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.044s]   CMake did not find one.
+[1.044s] 
+[1.044s]   Could not find a package configuration file provided by "catkin" with any
+[1.044s]   of the following names:
+[1.044s] 
+[1.044s]     catkinConfig.cmake
+[1.044s] -- Configuring incomplete, errors occurred!
+[1.046s]     catkin-config.cmake
+[1.046s] 
+[1.046s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.046s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.046s]   provides a separate development package or SDK, be sure it has been
+[1.046s]   installed.
+[1.046s] 
+[1.046s] [0m
+[1.051s] Invoked command in '/home/pheonix/ros2_ws/build/joy' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joystick_drivers/joy -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy

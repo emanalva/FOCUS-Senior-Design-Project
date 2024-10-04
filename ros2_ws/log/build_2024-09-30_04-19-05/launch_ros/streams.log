@@ -1,0 +1,171 @@
+[2.460s] Invoking command in '/home/pheonix/ros2_ws/src/launch_ros/launch_ros': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/composition_interfaces:/home/pheonix/ros2_ws/install/rcl_interfaces:/home/pheonix/ros2_ws/install/lifecycle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/composition_interfaces:/home/pheonix/ros2_ws/install/rcl_interfaces:/home/pheonix/ros2_ws/install/lifecycle_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/composition_interfaces/lib:/home/pheonix/ros2_ws/install/rcl_interfaces/lib:/home/pheonix/ros2_ws/install/lifecycle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/build/launch_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_ros build --build-base /home/pheonix/ros2_ws/build/launch_ros/build install --record /home/pheonix/ros2_ws/build/launch_ros/install.log --single-version-externally-managed install_data
+[2.666s] running egg_info
+[2.666s] creating ../../../build/launch_ros/launch_ros.egg-info
+[2.688s] writing ../../../build/launch_ros/launch_ros.egg-info/PKG-INFO
+[2.688s] writing dependency_links to ../../../build/launch_ros/launch_ros.egg-info/dependency_links.txt
+[2.688s] writing entry points to ../../../build/launch_ros/launch_ros.egg-info/entry_points.txt
+[2.688s] writing requirements to ../../../build/launch_ros/launch_ros.egg-info/requires.txt
+[2.688s] writing top-level names to ../../../build/launch_ros/launch_ros.egg-info/top_level.txt
+[2.688s] writing manifest file '../../../build/launch_ros/launch_ros.egg-info/SOURCES.txt'
+[2.726s] reading manifest file '../../../build/launch_ros/launch_ros.egg-info/SOURCES.txt'
+[2.727s] writing manifest file '../../../build/launch_ros/launch_ros.egg-info/SOURCES.txt'
+[2.727s] running build
+[2.727s] running build_py
+[2.727s] creating /home/pheonix/ros2_ws/build/launch_ros/build
+[2.727s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib
+[2.727s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros
+[2.727s] copying launch_ros/ros_adapters.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros
+[2.727s] copying launch_ros/remap_rule_type.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros
+[2.727s] copying launch_ros/__init__.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros
+[2.727s] copying launch_ros/parameter_descriptions.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros
+[2.728s] copying launch_ros/parameters_type.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros
+[2.730s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.730s] copying launch_ros/actions/set_parameter.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.730s] copying launch_ros/actions/node.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.730s] copying launch_ros/actions/set_remap.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.730s] copying launch_ros/actions/lifecycle_node.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] copying launch_ros/actions/set_use_sim_time.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] copying launch_ros/actions/push_ros_namespace.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] copying launch_ros/actions/set_parameters_from_file.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] copying launch_ros/actions/load_composable_nodes.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] copying launch_ros/actions/composable_node_container.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] copying launch_ros/actions/set_ros_log_dir.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] copying launch_ros/actions/ros_timer.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] copying launch_ros/actions/lifecycle_transition.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] copying launch_ros/actions/__init__.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions
+[2.731s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events
+[2.731s] copying launch_ros/events/__init__.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events
+[2.731s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[2.731s] copying launch_ros/descriptions/composable_node.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[2.731s] copying launch_ros/descriptions/__init__.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/descriptions
+[2.731s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[2.731s] copying launch_ros/substitutions/find_package.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[2.731s] copying launch_ros/substitutions/parameter.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[2.731s] copying launch_ros/substitutions/executable_in_package.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[2.731s] copying launch_ros/substitutions/__init__.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/substitutions
+[2.731s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities
+[2.731s] copying launch_ros/utilities/normalize_parameters.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities
+[2.731s] copying launch_ros/utilities/namespace_utils.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities
+[2.731s] copying launch_ros/utilities/normalize_remap_rule.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities
+[2.731s] copying launch_ros/utilities/evaluate_parameters.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities
+[2.731s] copying launch_ros/utilities/__init__.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities
+[2.731s] copying launch_ros/utilities/track_node_names.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities
+[2.731s] copying launch_ros/utilities/plugin_support.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities
+[2.731s] copying launch_ros/utilities/to_parameters_list.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities
+[2.731s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/event_handlers
+[2.731s] copying launch_ros/event_handlers/__init__.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/event_handlers
+[2.731s] copying launch_ros/event_handlers/on_state_transition.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/event_handlers
+[2.731s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[2.731s] copying launch_ros/events/lifecycle/lifecycle_node_matchers.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[2.731s] copying launch_ros/events/lifecycle/change_state.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[2.731s] copying launch_ros/events/lifecycle/state_transition.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[2.731s] copying launch_ros/events/lifecycle/__init__.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle
+[2.732s] creating /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/matchers
+[2.732s] copying launch_ros/events/matchers/matches_node_name.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/matchers
+[2.732s] copying launch_ros/events/matchers/__init__.py -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/matchers
+[2.732s] copying launch_ros/py.typed -> /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros
+[2.732s] running install
+[2.736s] running install_lib
+[2.755s] creating /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros
+[2.755s] creating /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.755s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/set_parameter.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/node.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/set_remap.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/lifecycle_node.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/set_use_sim_time.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/push_ros_namespace.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/set_parameters_from_file.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/load_composable_nodes.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/composable_node_container.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/set_ros_log_dir.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/ros_timer.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/lifecycle_transition.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/actions/__init__.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions
+[2.756s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/ros_adapters.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros
+[2.757s] creating /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events
+[2.757s] creating /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/lifecycle_node_matchers.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/change_state.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/state_transition.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/lifecycle/__init__.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/lifecycle
+[2.757s] creating /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/matchers
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/matchers/matches_node_name.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/matchers
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/matchers/__init__.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/matchers
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/events/__init__.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events
+[2.757s] creating /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/descriptions
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/descriptions/composable_node.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/descriptions
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/descriptions/__init__.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/descriptions
+[2.757s] creating /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/substitutions
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/substitutions/find_package.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/substitutions
+[2.757s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/substitutions/parameter.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/substitutions
+[2.759s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/substitutions/executable_in_package.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/substitutions
+[2.759s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/substitutions/__init__.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/substitutions
+[2.759s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/py.typed -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros
+[2.759s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/remap_rule_type.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros
+[2.759s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/__init__.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros
+[2.759s] creating /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities
+[2.759s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities/normalize_parameters.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities
+[2.759s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities/namespace_utils.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities
+[2.759s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities/normalize_remap_rule.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities
+[2.761s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities/evaluate_parameters.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities
+[2.761s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities/__init__.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities
+[2.761s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities/track_node_names.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities
+[2.761s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities/plugin_support.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities
+[2.761s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/utilities/to_parameters_list.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities
+[2.761s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/parameter_descriptions.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros
+[2.762s] creating /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/event_handlers
+[2.762s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/event_handlers/__init__.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/event_handlers
+[2.762s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/event_handlers/on_state_transition.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/event_handlers
+[2.762s] copying /home/pheonix/ros2_ws/build/launch_ros/build/lib/launch_ros/parameters_type.py -> /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros
+[2.762s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/set_parameter.py to set_parameter.cpython-312.pyc
+[2.765s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/node.py to node.cpython-312.pyc
+[2.765s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/set_remap.py to set_remap.cpython-312.pyc
+[2.767s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/lifecycle_node.py to lifecycle_node.cpython-312.pyc
+[2.767s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/set_use_sim_time.py to set_use_sim_time.cpython-312.pyc
+[2.767s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/push_ros_namespace.py to push_ros_namespace.cpython-312.pyc
+[2.774s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/set_parameters_from_file.py to set_parameters_from_file.cpython-312.pyc
+[2.774s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/load_composable_nodes.py to load_composable_nodes.cpython-312.pyc
+[2.774s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/composable_node_container.py to composable_node_container.cpython-312.pyc
+[2.774s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/set_ros_log_dir.py to set_ros_log_dir.cpython-312.pyc
+[2.774s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/ros_timer.py to ros_timer.cpython-312.pyc
+[2.774s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/lifecycle_transition.py to lifecycle_transition.cpython-312.pyc
+[2.774s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/actions/__init__.py to __init__.cpython-312.pyc
+[2.775s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/ros_adapters.py to ros_adapters.cpython-312.pyc
+[2.775s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/lifecycle/lifecycle_node_matchers.py to lifecycle_node_matchers.cpython-312.pyc
+[2.775s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/lifecycle/change_state.py to change_state.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/lifecycle/state_transition.py to state_transition.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/lifecycle/__init__.py to __init__.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/matchers/matches_node_name.py to matches_node_name.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/matchers/__init__.py to __init__.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/events/__init__.py to __init__.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/descriptions/composable_node.py to composable_node.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/descriptions/__init__.py to __init__.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/substitutions/find_package.py to find_package.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/substitutions/parameter.py to parameter.cpython-312.pyc
+[2.779s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/substitutions/executable_in_package.py to executable_in_package.cpython-312.pyc
+[2.781s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/substitutions/__init__.py to __init__.cpython-312.pyc
+[2.789s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/remap_rule_type.py to remap_rule_type.cpython-312.pyc
+[2.789s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/__init__.py to __init__.cpython-312.pyc
+[2.789s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities/normalize_parameters.py to normalize_parameters.cpython-312.pyc
+[2.794s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities/namespace_utils.py to namespace_utils.cpython-312.pyc
+[2.794s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities/normalize_remap_rule.py to normalize_remap_rule.cpython-312.pyc
+[2.794s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities/evaluate_parameters.py to evaluate_parameters.cpython-312.pyc
+[2.800s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities/__init__.py to __init__.cpython-312.pyc
+[2.801s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities/track_node_names.py to track_node_names.cpython-312.pyc
+[2.801s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities/plugin_support.py to plugin_support.cpython-312.pyc
+[2.802s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/utilities/to_parameters_list.py to to_parameters_list.cpython-312.pyc
+[2.802s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/parameter_descriptions.py to parameter_descriptions.cpython-312.pyc
+[2.804s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/event_handlers/__init__.py to __init__.cpython-312.pyc
+[2.804s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/event_handlers/on_state_transition.py to on_state_transition.cpython-312.pyc
+[2.811s] byte-compiling /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros/parameters_type.py to parameters_type.cpython-312.pyc
+[2.813s] running install_data
+[2.813s] copying package.xml -> /home/pheonix/ros2_ws/install/launch_ros/share/launch_ros
+[2.813s] creating /home/pheonix/ros2_ws/install/launch_ros/share/ament_index
+[2.813s] creating /home/pheonix/ros2_ws/install/launch_ros/share/ament_index/resource_index
+[2.813s] creating /home/pheonix/ros2_ws/install/launch_ros/share/ament_index/resource_index/packages
+[2.813s] copying resource/launch_ros -> /home/pheonix/ros2_ws/install/launch_ros/share/ament_index/resource_index/packages
+[2.813s] running install_egg_info
+[2.826s] Copying ../../../build/launch_ros/launch_ros.egg-info to /home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages/launch_ros-0.27.2-py3.12.egg-info
+[2.828s] running install_scripts
+[2.935s] writing list of installed files to '/home/pheonix/ros2_ws/build/launch_ros/install.log'
+[3.010s] Invoked command in '/home/pheonix/ros2_ws/src/launch_ros/launch_ros' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/composition_interfaces:/home/pheonix/ros2_ws/install/rcl_interfaces:/home/pheonix/ros2_ws/install/lifecycle_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/composition_interfaces:/home/pheonix/ros2_ws/install/rcl_interfaces:/home/pheonix/ros2_ws/install/lifecycle_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/composition_interfaces/lib:/home/pheonix/ros2_ws/install/rcl_interfaces/lib:/home/pheonix/ros2_ws/install/lifecycle_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/build/launch_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/composition_interfaces/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/lifecycle_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_ros build --build-base /home/pheonix/ros2_ws/build/launch_ros/build install --record /home/pheonix/ros2_ws/build/launch_ros/install.log --single-version-externally-managed install_data

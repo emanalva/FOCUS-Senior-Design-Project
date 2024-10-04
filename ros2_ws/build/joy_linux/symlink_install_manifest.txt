@@ -1,0 +1,16 @@
+/home/pheonix/ros2_ws/install/joy_linux/lib/joy_linux/joy_linux_node
+/home/pheonix/ros2_ws/install/joy_linux/share/ament_index/resource_index/package_run_dependencies/joy_linux
+/home/pheonix/ros2_ws/install/joy_linux/share/ament_index/resource_index/parent_prefix_path/joy_linux
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.sh
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/environment/ament_prefix_path.dsv
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/environment/path.sh
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/environment/path.dsv
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/local_setup.bash
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/local_setup.sh
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/local_setup.zsh
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/local_setup.dsv
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.dsv
+/home/pheonix/ros2_ws/install/joy_linux/share/ament_index/resource_index/packages/joy_linux
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig.cmake
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/cmake/joy_linuxConfig-version.cmake
+/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.xml

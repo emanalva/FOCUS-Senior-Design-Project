@@ -1,0 +1,358 @@
+[0.049s] Invoking command in '/home/pheonix/ros2_ws/build/action_msgs': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pheonix/ros2_ws/src/rcl_interfaces/action_msgs -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/action_msgs
+[0.229s] -- The C compiler identification is GNU 13.2.0
+[0.354s] -- The CXX compiler identification is GNU 13.2.0
+[0.432s] -- Detecting C compiler ABI info
+[0.774s] -- Detecting C compiler ABI info - done
+[0.798s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.798s] -- Detecting C compile features
+[0.799s] -- Detecting C compile features - done
+[0.839s] -- Detecting CXX compiler ABI info
+[1.142s] -- Detecting CXX compiler ABI info - done
+[1.142s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.142s] -- Detecting CXX compile features
+[1.142s] -- Detecting CXX compile features - done
+[1.154s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.264s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.503s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.577s] -- Found rosidl_generator_c: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.584s] -- Found rosidl_generator_cpp: 4.6.3 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.673s] -- Found rosidl_core_generators: 0.2.0 (/opt/ros/jazzy/share/rosidl_core_generators/cmake)
+[1.694s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.706s] -- Found unique_identifier_msgs: 2.5.0 (/opt/ros/jazzy/share/unique_identifier_msgs/cmake)
+[2.981s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.986s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[3.033s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[3.033s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.610s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.614s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.935s] -- Found PythonExtra: /usr/bin/python3  
+[5.417s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.507s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[5.517s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[5.524s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.559s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.562s] -- Added test 'lint_cmake' to check CMake code style
+[5.565s] -- Added test 'xmllint' to check XML markup files
+[5.569s] -- Configuring done (5.5s)
+[5.610s] -- Generating done (0.0s)
+[5.611s] -- Build files have been written to: /home/pheonix/ros2_ws/build/action_msgs
+[5.651s] Invoked command in '/home/pheonix/ros2_ws/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pheonix/ros2_ws/src/rcl_interfaces/action_msgs -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/action_msgs
+[5.651s] Invoking command in '/home/pheonix/ros2_ws/build/action_msgs': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pheonix/ros2_ws/build/action_msgs -- -j2 -l2
+[5.696s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.105s] [  1%] Built target action_msgs__rosidl_generator_type_description
+[6.141s] [  1%] Built target ament_cmake_python_copy_action_msgs
+[6.175s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.488s] [  3%] Built target action_msgs__cpp
+[7.523s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.202s] [  6%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_info__description.c.o[0m
+[9.367s] [  7%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_info__functions.c.o[0m
+[9.992s] [  9%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_info__type_support.c.o[0m
+[10.116s] [ 10%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status__description.c.o[0m
+[10.335s] [ 12%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status__functions.c.o[0m
+[10.464s] [ 14%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status__type_support.c.o[0m
+[10.572s] [ 15%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status_array__description.c.o[0m
+[10.895s] [ 17%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status_array__functions.c.o[0m
+[10.988s] [ 18%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[11.134s] [ 20%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/srv/detail/cancel_goal__description.c.o[0m
+[11.271s] [ 21%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/srv/detail/cancel_goal__functions.c.o[0m
+[11.346s] [ 23%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_c.dir/rosidl_generator_c/action_msgs/srv/detail/cancel_goal__type_support.c.o[0m
+[11.379s] [ 25%] [32m[1mLinking C shared library libaction_msgs__rosidl_generator_c.so[0m
+[11.439s] [ 25%] Built target action_msgs__rosidl_generator_c
+[11.981s] running egg_info
+[11.981s] creating action_msgs.egg-info
+[12.028s] writing action_msgs.egg-info/PKG-INFO
+[12.028s] writing dependency_links to action_msgs.egg-info/dependency_links.txt
+[12.028s] writing top-level names to action_msgs.egg-info/top_level.txt
+[12.029s] writing manifest file 'action_msgs.egg-info/SOURCES.txt'
+[12.123s] reading manifest file 'action_msgs.egg-info/SOURCES.txt'
+[12.124s] writing manifest file 'action_msgs.egg-info/SOURCES.txt'
+[12.237s] [ 25%] Built target ament_cmake_python_build_action_msgs_egg
+[12.291s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.276s] [ 28%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[13.603s] [ 29%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[13.915s] [ 31%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[14.212s] [ 32%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[14.564s] [ 34%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_cpp.so[0m
+[14.686s] [ 34%] Built target action_msgs__rosidl_typesupport_cpp
+[14.701s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.165s] [ 37%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_info__type_support_c.cpp.o[0m
+[15.485s] [ 39%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status__type_support_c.cpp.o[0m
+[15.829s] [ 40%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/msg/detail/goal_status_array__type_support_c.cpp.o[0m
+[16.650s] [ 42%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_msgs/srv/detail/cancel_goal__type_support_c.cpp.o[0m
+[17.458s] [ 43%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[17.698s] [ 43%] Built target action_msgs__rosidl_typesupport_fastrtps_c
+[17.756s] [ 45%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.759s] [ 46%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_info__type_support.cpp.o[0m
+[19.411s] [ 48%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status__type_support.cpp.o[0m
+[19.889s] [ 50%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/msg/detail/dds_fastrtps/goal_status_array__type_support.cpp.o[0m
+[20.267s] [ 51%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_msgs/srv/detail/dds_fastrtps/cancel_goal__type_support.cpp.o[0m
+[20.770s] [ 53%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.884s] [ 53%] Built target action_msgs__rosidl_typesupport_fastrtps_cpp
+[20.907s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.803s] [ 56%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_info__type_support.c.o[0m
+[21.947s] [ 57%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status__type_support.c.o[0m
+[22.019s] [ 59%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/msg/detail/goal_status_array__type_support.c.o[0m
+[22.098s] [ 60%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_msgs/srv/detail/cancel_goal__type_support.c.o[0m
+[22.222s] [ 62%] [32m[1mLinking C shared library libaction_msgs__rosidl_typesupport_introspection_c.so[0m
+[22.328s] [ 62%] Built target action_msgs__rosidl_typesupport_introspection_c
+[22.357s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[22.963s] [ 65%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_info__type_support.cpp.o[0m
+[23.037s] [ 67%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status__type_support.cpp.o[0m
+[23.116s] [ 68%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/msg/goal_status_array__type_support.cpp.o[0m
+[23.190s] [ 70%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_msgs/srv/cancel_goal__type_support.cpp.o[0m
+[23.252s] [ 71%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_c.so[0m
+[23.316s] [ 71%] Built target action_msgs__rosidl_typesupport_c
+[23.338s] [ 73%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[23.857s] [ 75%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_info__type_support.cpp.o[0m
+[24.164s] [ 76%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status__type_support.cpp.o[0m
+[24.447s] [ 78%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/msg/detail/goal_status_array__type_support.cpp.o[0m
+[24.685s] [ 79%] [32mBuilding CXX object CMakeFiles/action_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_msgs/srv/detail/cancel_goal__type_support.cpp.o[0m
+[25.295s] [ 81%] [32m[1mLinking CXX shared library libaction_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[25.444s] [ 81%] Built target action_msgs__rosidl_typesupport_introspection_cpp
+[25.572s] [ 81%] Built target action_msgs
+[25.845s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[27.597s] [ 82%] Built target action_msgs__py
+[27.702s] [ 84%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_info_s.c.o[0m
+[27.970s] [ 85%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_status_s.c.o[0m
+[28.212s] [ 87%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/msg/_goal_status_array_s.c.o[0m
+[28.494s] [ 89%] [32mBuilding C object CMakeFiles/action_msgs__rosidl_generator_py.dir/rosidl_generator_py/action_msgs/srv/_cancel_goal_s.c.o[0m
+[28.682s] [ 90%] [32m[1mLinking C shared library libaction_msgs__rosidl_generator_py.so[0m
+[28.769s] [ 90%] Built target action_msgs__rosidl_generator_py
+[28.827s] [ 92%] [32mBuilding C object CMakeFiles/action_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[29.236s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[29.347s] [ 93%] Built target action_msgs_s__rosidl_typesupport_fastrtps_c
+[29.388s] [ 95%] [32mBuilding C object CMakeFiles/action_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[29.587s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[29.725s] [ 96%] Built target action_msgs_s__rosidl_typesupport_introspection_c
+[29.855s] [ 98%] [32mBuilding C object CMakeFiles/action_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/action_msgs/_action_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[30.085s] [100%] [32m[1mLinking C shared module rosidl_generator_py/action_msgs/action_msgs_s__rosidl_typesupport_c.so[0m
+[30.194s] [100%] Built target action_msgs_s__rosidl_typesupport_c
+[30.237s] Invoked command in '/home/pheonix/ros2_ws/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pheonix/ros2_ws/build/action_msgs -- -j2 -l2
+[31.127s] Invoking command in '/home/pheonix/ros2_ws/build/action_msgs': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pheonix/ros2_ws/build/action_msgs
+[31.163s] -- Install configuration: ""
+[31.163s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/ament_index/resource_index/rosidl_interfaces/action_msgs
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.json
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/msg/GoalStatus.json
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/msg/GoalStatusArray.json
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/srv/CancelGoal.json
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status.h
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.c
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.c
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__description.c
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__description.c
+[31.164s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.c
+[31.165s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h
+[31.165s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h
+[31.165s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
+[31.168s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.c
+[31.168s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h
+[31.169s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__functions.c
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__functions.c
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__description.c
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_info.h
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status_array.h
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/cancel_goal.h
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__description.c
+[31.172s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.c
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.c
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/environment/library_path.sh
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/environment/library_path.dsv
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so
+[31.173s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_c.so" to ""
+[31.173s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs
+[31.173s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.173s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_c.h
+[31.173s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_c.h
+[31.174s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_c.h
+[31.174s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv
+[31.174s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[31.174s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_c.h
+[31.174s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+[31.174s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[31.174s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs
+[31.174s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg
+[31.174s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[31.174s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[31.174s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp
+[31.175s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.hpp
+[31.178s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp
+[31.179s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp
+[31.180s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp
+[31.181s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp
+[31.181s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.hpp
+[31.181s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp
+[31.181s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp
+[31.181s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp
+[31.182s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp
+[31.182s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
+[31.182s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status_array.hpp
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_status.hpp
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/goal_info.hpp
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/cancel_goal.hpp
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.hpp
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/dds_fastrtps
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_fastrtps_cpp.hpp
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_fastrtps_cpp.hpp
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/dds_fastrtps
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+[31.197s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg
+[31.197s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.c
+[31.197s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.c
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_c.h
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_c.h
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.c
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_c.h
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.198s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv
+[31.198s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_c.h
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.c
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+[31.198s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_c.so" to ""
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so
+[31.198s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_c.so" to ""
+[31.198s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs
+[31.198s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg
+[31.198s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.cpp
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__rosidl_typesupport_introspection_cpp.hpp
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.cpp
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.cpp
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_info__rosidl_typesupport_introspection_cpp.hpp
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/msg/detail/goal_status__rosidl_typesupport_introspection_cpp.hpp
+[31.198s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv
+[31.198s] -- Up-to-date: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__rosidl_typesupport_introspection_cpp.hpp
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.cpp
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+[31.198s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so
+[31.198s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_typesupport_cpp.so" to ""
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/environment/pythonpath.sh
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/environment/pythonpath.dsv
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.2.0-py3.12.egg-info
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.2.0-py3.12.egg-info/SOURCES.txt
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.2.0-py3.12.egg-info/dependency_links.txt
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.2.0-py3.12.egg-info/PKG-INFO
+[31.198s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs-2.2.0-py3.12.egg-info/top_level.txt
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.so
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.so
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_c.c
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status.py
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_info_s.c
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status_array.py
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status_s.c
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_info.py
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/__init__.py
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status_array_s.c
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/__init__.py
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.so
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/_action_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/_cancel_goal.py
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/__init__.py
+[31.199s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/_cancel_goal_s.c
+[31.298s] Listing '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs'...
+[31.298s] Compiling '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/__init__.py'...
+[31.298s] Listing '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg'...
+[31.298s] Compiling '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/__init__.py'...
+[31.298s] Compiling '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_info.py'...
+[31.298s] Compiling '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status.py'...
+[31.302s] Compiling '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/msg/_goal_status_array.py'...
+[31.302s] Listing '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv'...
+[31.302s] Compiling '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/__init__.py'...
+[31.302s] Compiling '/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/srv/_cancel_goal.py'...
+[31.320s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.so
+[31.322s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[31.322s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.so
+[31.322s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[31.322s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.so
+[31.323s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/python3.12/site-packages/action_msgs/action_msgs_s__rosidl_typesupport_c.so" to ""
+[31.330s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_py.so
+[31.332s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/action_msgs/lib/libaction_msgs__rosidl_generator_py.so" to ""
+[31.332s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.idl
+[31.332s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/msg/GoalStatus.idl
+[31.332s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl
+[31.332s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/srv/CancelGoal.idl
+[31.332s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/msg/GoalInfo.msg
+[31.332s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/msg/GoalStatus.msg
+[31.332s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/msg/GoalStatusArray.msg
+[31.332s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/srv/CancelGoal.srv
+[31.332s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/ament_index/resource_index/package_run_dependencies/action_msgs
+[31.333s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/ament_index/resource_index/parent_prefix_path/action_msgs
+[31.334s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/environment/ament_prefix_path.sh
+[31.334s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/environment/ament_prefix_path.dsv
+[31.334s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/environment/path.sh
+[31.334s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/environment/path.dsv
+[31.334s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/local_setup.bash
+[31.334s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/local_setup.sh
+[31.334s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/local_setup.zsh
+[31.334s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/local_setup.dsv
+[31.335s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/package.dsv
+[31.335s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/ament_index/resource_index/packages/action_msgs
+[31.338s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cExport.cmake
+[31.338s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cExport-noconfig.cmake
+[31.338s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[31.338s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[31.339s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_cppExport.cmake
+[31.339s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.339s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[31.339s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport.cmake
+[31.339s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.339s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport.cmake
+[31.340s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[31.340s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[31.341s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.341s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport.cmake
+[31.341s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[31.354s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_pyExport.cmake
+[31.360s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/export_action_msgs__rosidl_generator_pyExport-noconfig.cmake
+[31.360s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/rosidl_cmake-extras.cmake
+[31.360s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.360s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.360s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[31.361s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[31.361s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.361s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.361s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgsConfig.cmake
+[31.361s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/cmake/action_msgsConfig-version.cmake
+[31.361s] -- Installing: /home/pheonix/ros2_ws/install/action_msgs/share/action_msgs/package.xml
+[31.368s] Invoked command in '/home/pheonix/ros2_ws/build/action_msgs' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pheonix/ros2_ws/build/action_msgs

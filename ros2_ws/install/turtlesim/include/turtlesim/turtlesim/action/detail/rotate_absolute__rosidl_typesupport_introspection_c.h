@@ -1,0 +1,1 @@
+/home/pheonix/ros2_ws/build/turtlesim/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h

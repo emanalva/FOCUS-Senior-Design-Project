@@ -1,0 +1,14 @@
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/uninstall.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/joy_uninstall.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/joy.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/joy_node.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/game_controller.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/game_controller_node.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/joy_enumerate_devices.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/test.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/edit_cache.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/rebuild_cache.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/list_install_components.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/install.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/install/local.dir
+/home/pheonix/ros2_ws/build/joy/CMakeFiles/install/strip.dir

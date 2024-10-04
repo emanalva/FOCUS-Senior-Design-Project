@@ -1,0 +1,20 @@
+{
+  "package_name": "turtlesim",
+  "output_dir": "/home/pheonix/ros2_ws/build/turtlesim/rosidl_generator_type_description/turtlesim",
+  "idl_tuples": [
+    "/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl",
+    "/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl",
+    "/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl",
+    "/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl",
+    "/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl",
+    "/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl",
+    "/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl",
+    "/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/home/pheonix/ros2_ws/install/service_msgs/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/home/pheonix/ros2_ws/install/action_msgs/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

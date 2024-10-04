@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/pheonix/ros2_ws/build/liblz4_vendor': /usr/bin/cmake /home/pheonix/ros2_ws/src/rosbag2/liblz4_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/liblz4_vendor
+[0.018s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.618s] Traceback (most recent call last):
+[2.618s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[2.618s]     from ament_package.templates import get_environment_hook_template_path
+[2.618s] ModuleNotFoundError: No module named 'ament_package'
+[2.650s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[2.650s]   execute_process(/usr/bin/python3
+[2.650s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[2.651s]   /home/pheonix/ros2_ws/build/liblz4_vendor/ament_cmake_package_templates/templates.cmake)
+[2.651s]   returned error code 1
+[2.651s] Call Stack (most recent call first):
+[2.651s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.651s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.651s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.651s]   CMakeLists.txt:4 (find_package)
+[2.651s] 
+[2.651s] [0m
+[2.651s] -- Configuring incomplete, errors occurred!
+[2.671s] Invoked command in '/home/pheonix/ros2_ws/build/liblz4_vendor' returned '1': /usr/bin/cmake /home/pheonix/ros2_ws/src/rosbag2/liblz4_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/liblz4_vendor

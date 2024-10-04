@@ -1,0 +1,620 @@
+[0.159s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.160s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x798799d72300>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x798799d1c200>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x798799d1c200>>, mixin_verb=('build',))
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.221s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pheonix/ros2_ws'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'ros'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['cmake', 'python']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'cmake'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extensions ['python_setup_py']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers) by extension 'python_setup_py'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy' with type 'ros.ament_cmake' and name 'joy'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ignore_ament_install'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_pkg']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['colcon_meta']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'colcon_meta'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extensions ['ros']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_drivers/joy_linux) by extension 'ros'
+[0.250s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_drivers/joy_linux' with type 'ros.ament_cmake' and name 'joy_linux'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros) by extension 'python_setup_py'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_ros) by extension 'ignore'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_ros) by extension 'ignore_ament_install'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_ros) by extensions ['colcon_pkg']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_ros) by extension 'colcon_pkg'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_ros) by extensions ['colcon_meta']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_ros) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_ros) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_ros) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_ros/launch_ros' with type 'ros.ament_python' and name 'launch_ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_testing_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_testing_ros) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_testing_ros) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_testing_ros) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_testing_ros) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_testing_ros) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_testing_ros) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_testing_ros) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/launch_testing_ros) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_ros/launch_testing_ros' with type 'ros.ament_python' and name 'launch_testing_ros'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/ros2launch) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/ros2launch) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/ros2launch) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/ros2launch) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/ros2launch) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/ros2launch) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/ros2launch) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/ros2launch) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/ros2launch) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_ros/ros2launch' with type 'ros.ament_python' and name 'ros2launch'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/test_launch_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/test_launch_ros) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/test_launch_ros) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/test_launch_ros) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/test_launch_ros) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/test_launch_ros) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/test_launch_ros) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/test_launch_ros) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_ros/test_launch_ros) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_ros/test_launch_ros' with type 'ros.ament_python' and name 'test_launch_ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_joy' with type 'ros.ament_cmake' and name 'teleop_twist_joy'
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/jazzy
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.329s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'teleop_twist_joy' is in: /opt/ros/jazzy
+	'joy' is in: /opt/ros/jazzy
+	'turtlesim' is in: /opt/ros/jazzy
+	'ros2launch' is in: /opt/ros/jazzy
+	'launch_ros' is in: /opt/ros/jazzy
+	'launch_testing_ros' is in: /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding joy launch_ros launch_testing_ros ros2launch teleop_twist_joy turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pheonix/ros2_ws/build/joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pheonix/ros2_ws/install/joy', 'merge_install': False, 'path': '/home/pheonix/ros2_ws/src/joystick_drivers/joy', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'joy_linux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'joy_linux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pheonix/ros2_ws/build/joy_linux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pheonix/ros2_ws/install/joy_linux', 'merge_install': False, 'path': '/home/pheonix/ros2_ws/src/joystick_drivers/joy_linux', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_ros' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_ros' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'launch_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pheonix/ros2_ws/build/launch_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pheonix/ros2_ws/install/launch_ros', 'merge_install': False, 'path': '/home/pheonix/ros2_ws/src/launch_ros/launch_ros', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pheonix/ros2_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pheonix/ros2_ws/install/turtlesim', 'merge_install': False, 'path': '/home/pheonix/ros2_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_ros' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_ros' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'launch_testing_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.332s] DEBUG:colcon.colcon_core.verb:Building package 'launch_testing_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pheonix/ros2_ws/build/launch_testing_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pheonix/ros2_ws/install/launch_testing_ros', 'merge_install': False, 'path': '/home/pheonix/ros2_ws/src/launch_ros/launch_testing_ros', 'symlink_install': False, 'test_result_base': None}
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'ros2launch' build argument 'cmake_args' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'ros2launch' build argument 'cmake_target' from command line to 'None'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'ros2launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'ros2launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'ros2launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'ros2launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.332s] Level 5:colcon.colcon_core.verb:set package 'ros2launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'ros2launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'ros2launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'ros2launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pheonix/ros2_ws/build/ros2launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pheonix/ros2_ws/install/ros2launch', 'merge_install': False, 'path': '/home/pheonix/ros2_ws/src/launch_ros/ros2launch', 'symlink_install': False, 'test_result_base': None}
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'test_launch_ros' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'test_launch_ros' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'test_launch_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'test_launch_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'test_launch_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'test_launch_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'test_launch_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'test_launch_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'test_launch_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'test_launch_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pheonix/ros2_ws/build/test_launch_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pheonix/ros2_ws/install/test_launch_ros', 'merge_install': False, 'path': '/home/pheonix/ros2_ws/src/launch_ros/test_launch_ros', 'symlink_install': False, 'test_result_base': None}
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.333s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.333s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pheonix/ros2_ws/build/teleop_twist_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pheonix/ros2_ws/install/teleop_twist_joy', 'merge_install': False, 'path': '/home/pheonix/ros2_ws/src/teleop_twist_joy', 'symlink_install': False, 'test_result_base': None}
+[0.333s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.335s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pheonix/ros2_ws/src/launch_ros/launch_ros' with build type 'ament_python'
+[0.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_ros', 'ament_prefix_path')
+[0.345s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/hook/ament_prefix_path.ps1'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/hook/ament_prefix_path.dsv'
+[0.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/hook/ament_prefix_path.sh'
+[0.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pheonix/ros2_ws/src/joystick_drivers/joy' with build type 'ament_cmake'
+[0.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pheonix/ros2_ws/src/joystick_drivers/joy'
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.556s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pheonix/ros2_ws/src/launch_ros/launch_ros'
+[0.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/joy -- -j2 -l2
+[0.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/joy -- -j2 -l2
+[1.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/joy
+[1.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[1.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/joy
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy' for CMake module files
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy' for CMake config files
+[1.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/lib'
+[1.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/bin'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/lib/pkgconfig/joy.pc'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/lib/python3.12/site-packages'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/bin'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy/share/joy/package.ps1'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/joy/share/joy/package.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy/share/joy/package.sh'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy/share/joy/package.bash'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy/share/joy/package.zsh'
+[1.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/joy/share/colcon-core/packages/joy)
+[1.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy)
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy' for CMake module files
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy' for CMake config files
+[1.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'cmake_prefix_path')
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy/share/joy/hook/cmake_prefix_path.ps1'
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/joy/share/joy/hook/cmake_prefix_path.dsv'
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy/share/joy/hook/cmake_prefix_path.sh'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/lib'
+[1.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy', 'ld_library_path_lib')
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy/share/joy/hook/ld_library_path_lib.ps1'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/joy/share/joy/hook/ld_library_path_lib.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy/share/joy/hook/ld_library_path_lib.sh'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/bin'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/lib/pkgconfig/joy.pc'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/lib/python3.12/site-packages'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy/bin'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy/share/joy/package.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/joy/share/joy/package.dsv'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy/share/joy/package.sh'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy/share/joy/package.bash'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy/share/joy/package.zsh'
+[1.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/joy/share/colcon-core/packages/joy)
+[1.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pheonix/ros2_ws/src/joystick_drivers/joy_linux' with build type 'ament_cmake'
+[1.128s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pheonix/ros2_ws/src/joystick_drivers/joy_linux'
+[1.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.128s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/joy_linux -- -j2 -l2
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/joy_linux -- -j2 -l2
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/joy_linux
+[1.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_linux)
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux' for CMake module files
+[1.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/build/joy_linux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/joy_linux
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux' for CMake config files
+[1.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_linux', 'cmake_prefix_path')
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.dsv'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.sh'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/lib'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/bin'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/lib/pkgconfig/joy_linux.pc'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/lib/python3.12/site-packages'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/bin'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.ps1'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.dsv'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.sh'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.bash'
+[1.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.zsh'
+[1.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/joy_linux/share/colcon-core/packages/joy_linux)
+[1.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_linux)
+[1.387s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux' for CMake module files
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux' for CMake config files
+[1.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_linux', 'cmake_prefix_path')
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.ps1'
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.dsv'
+[1.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/hook/cmake_prefix_path.sh'
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/lib'
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/bin'
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/lib/pkgconfig/joy_linux.pc'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/lib/python3.12/site-packages'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/joy_linux/bin'
+[1.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.ps1'
+[1.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.sh'
+[1.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.bash'
+[1.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/joy_linux/share/joy_linux/package.zsh'
+[1.392s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/joy_linux/share/colcon-core/packages/joy_linux)
+[1.393s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pheonix/ros2_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[1.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pheonix/ros2_ws/src/ros_tutorials/turtlesim'
+[1.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/turtlesim -- -j2 -l2
+[1.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/src/launch_ros/launch_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/launch_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_ros build --build-base /home/pheonix/ros2_ws/build/launch_ros/build install --record /home/pheonix/ros2_ws/build/launch_ros/install.log --single-version-externally-managed install_data
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_ros' for CMake module files
+[2.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/src/launch_ros/launch_ros' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/launch_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_ros build --build-base /home/pheonix/ros2_ws/build/launch_ros/build install --record /home/pheonix/ros2_ws/build/launch_ros/install.log --single-version-externally-managed install_data
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_ros' for CMake config files
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_ros/lib'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_ros/bin'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_ros/lib/pkgconfig/launch_ros.pc'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages'
+[2.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_ros', 'pythonpath')
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/hook/pythonpath.ps1'
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/hook/pythonpath.dsv'
+[2.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/hook/pythonpath.sh'
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_ros/bin'
+[2.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_ros)
+[2.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/package.ps1'
+[2.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/package.dsv'
+[2.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/package.sh'
+[2.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/package.bash'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/launch_ros/share/launch_ros/package.zsh'
+[2.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/launch_ros/share/colcon-core/packages/launch_ros)
+[2.259s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pheonix/ros2_ws/src/launch_ros/launch_testing_ros' with build type 'ament_python'
+[2.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_testing_ros', 'ament_prefix_path')
+[2.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/hook/ament_prefix_path.ps1'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/hook/ament_prefix_path.dsv'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/hook/ament_prefix_path.sh'
+[2.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.426s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pheonix/ros2_ws/src/launch_ros/launch_testing_ros'
+[2.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/turtlesim -- -j2 -l2
+[2.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/src/launch_ros/launch_testing_ros': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_ros:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/launch_testing_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/launch_testing_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_testing_ros build --build-base /home/pheonix/ros2_ws/build/launch_testing_ros/build install --record /home/pheonix/ros2_ws/build/launch_testing_ros/install.log --single-version-externally-managed install_data
+[3.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/turtlesim
+[3.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim' for CMake module files
+[3.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/turtlesim
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim' for CMake config files
+[3.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.222s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/lib'
+[3.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/bin'
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.224s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/lib/python3.12/site-packages'
+[3.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[3.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[3.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[3.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[3.226s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/bin'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[3.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[3.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[3.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[3.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.292s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_testing_ros' for CMake module files
+[3.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/src/launch_ros/launch_testing_ros' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_ros:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/launch_testing_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/launch_testing_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_testing_ros build --build-base /home/pheonix/ros2_ws/build/launch_testing_ros/build install --record /home/pheonix/ros2_ws/build/launch_testing_ros/install.log --single-version-externally-managed install_data
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_testing_ros' for CMake config files
+[3.297s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_testing_ros/lib'
+[3.297s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_testing_ros/bin'
+[3.297s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_testing_ros/lib/pkgconfig/launch_testing_ros.pc'
+[3.297s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_testing_ros/lib/python3.12/site-packages'
+[3.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_testing_ros', 'pythonpath')
+[3.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/hook/pythonpath.ps1'
+[3.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/hook/pythonpath.dsv'
+[3.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/hook/pythonpath.sh'
+[3.299s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/launch_testing_ros/bin'
+[3.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_testing_ros)
+[3.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/package.ps1'
+[3.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/package.dsv'
+[3.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/package.sh'
+[3.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/package.bash'
+[3.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/launch_testing_ros/share/launch_testing_ros/package.zsh'
+[3.301s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/launch_testing_ros/share/colcon-core/packages/launch_testing_ros)
+[3.302s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pheonix/ros2_ws/src/launch_ros/ros2launch' with build type 'ament_python'
+[3.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2launch', 'ament_prefix_path')
+[3.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/hook/ament_prefix_path.ps1'
+[3.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/hook/ament_prefix_path.dsv'
+[3.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/hook/ament_prefix_path.sh'
+[3.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.461s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pheonix/ros2_ws/src/launch_ros/ros2launch'
+[3.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[3.748s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim' for CMake module files
+[3.748s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim' for CMake config files
+[3.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[3.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[3.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[3.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/lib'
+[3.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[3.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[3.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[3.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/bin'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/lib/python3.12/site-packages'
+[3.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[3.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[3.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[3.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/turtlesim/bin'
+[3.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.sh'
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.bash'
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[3.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[3.759s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pheonix/ros2_ws/src/launch_ros/test_launch_ros' with build type 'ament_python'
+[3.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_launch_ros', 'ament_prefix_path')
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/hook/ament_prefix_path.ps1'
+[3.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/hook/ament_prefix_path.dsv'
+[3.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/hook/ament_prefix_path.sh'
+[3.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.910s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pheonix/ros2_ws/src/launch_ros/test_launch_ros'
+[3.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/src/launch_ros/ros2launch': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_ros:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/ros2launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/ros2launch/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2launch build --build-base /home/pheonix/ros2_ws/build/ros2launch/build install --record /home/pheonix/ros2_ws/build/ros2launch/install.log --single-version-externally-managed install_data
+[4.307s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/ros2launch' for CMake module files
+[4.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/src/launch_ros/ros2launch' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_ros:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/ros2launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/ros2launch/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2launch build --build-base /home/pheonix/ros2_ws/build/ros2launch/build install --record /home/pheonix/ros2_ws/build/ros2launch/install.log --single-version-externally-managed install_data
+[4.308s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/ros2launch' for CMake config files
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/ros2launch/lib'
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/ros2launch/bin'
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/ros2launch/lib/pkgconfig/ros2launch.pc'
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/ros2launch/lib/python3.12/site-packages'
+[4.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2launch', 'pythonpath')
+[4.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/hook/pythonpath.ps1'
+[4.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/hook/pythonpath.dsv'
+[4.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/hook/pythonpath.sh'
+[4.313s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/ros2launch/bin'
+[4.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2launch)
+[4.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/package.ps1'
+[4.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/package.dsv'
+[4.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/package.sh'
+[4.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/package.bash'
+[4.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/ros2launch/share/ros2launch/package.zsh'
+[4.315s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/ros2launch/share/colcon-core/packages/ros2launch)
+[4.317s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pheonix/ros2_ws/src/teleop_twist_joy' with build type 'ament_cmake'
+[4.317s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pheonix/ros2_ws/src/teleop_twist_joy'
+[4.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/src/launch_ros/test_launch_ros': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_ros:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/test_launch_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/test_launch_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/test_launch_ros build --build-base /home/pheonix/ros2_ws/build/test_launch_ros/build install --record /home/pheonix/ros2_ws/build/test_launch_ros/install.log --single-version-externally-managed install_data
+[4.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/build/teleop_twist_joy': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_testing_ros:/home/pheonix/ros2_ws/install/launch_ros:/home/pheonix/ros2_ws/install/joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/pheonix/ros2_ws/install/joy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/joy/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/launch_testing_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pheonix/ros2_ws/build/teleop_twist_joy -- -j2 -l2
+[4.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/build/teleop_twist_joy' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_testing_ros:/home/pheonix/ros2_ws/install/launch_ros:/home/pheonix/ros2_ws/install/joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/pheonix/ros2_ws/install/joy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/joy/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/launch_testing_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pheonix/ros2_ws/build/teleop_twist_joy -- -j2 -l2
+[4.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pheonix/ros2_ws/build/teleop_twist_joy': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_testing_ros:/home/pheonix/ros2_ws/install/launch_ros:/home/pheonix/ros2_ws/install/joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/pheonix/ros2_ws/install/joy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/joy/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/launch_testing_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pheonix/ros2_ws/build/teleop_twist_joy
+[4.709s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/test_launch_ros' for CMake module files
+[4.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/src/launch_ros/test_launch_ros' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_ros:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pheonix/ros2_ws/build/test_launch_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pheonix/ros2_ws/install/test_launch_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/test_launch_ros build --build-base /home/pheonix/ros2_ws/build/test_launch_ros/build install --record /home/pheonix/ros2_ws/build/test_launch_ros/install.log --single-version-externally-managed install_data
+[4.709s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/test_launch_ros' for CMake config files
+[4.711s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/test_launch_ros/lib'
+[4.711s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/test_launch_ros/bin'
+[4.711s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/test_launch_ros/lib/pkgconfig/test_launch_ros.pc'
+[4.711s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/test_launch_ros/lib/python3.12/site-packages'
+[4.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_launch_ros', 'pythonpath')
+[4.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/hook/pythonpath.ps1'
+[4.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/hook/pythonpath.dsv'
+[4.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/hook/pythonpath.sh'
+[4.714s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/test_launch_ros/bin'
+[4.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_launch_ros)
+[4.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/package.ps1'
+[4.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/package.dsv'
+[4.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/package.sh'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/package.bash'
+[4.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/test_launch_ros/share/test_launch_ros/package.zsh'
+[4.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/test_launch_ros/share/colcon-core/packages/test_launch_ros)
+[4.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[4.739s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy' for CMake module files
+[4.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pheonix/ros2_ws/build/teleop_twist_joy' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/launch_testing_ros:/home/pheonix/ros2_ws/install/launch_ros:/home/pheonix/ros2_ws/install/joy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/jazzy:/home/pheonix/ros2_ws/install/joy:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/joy/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/launch_testing_ros/lib/python3.12/site-packages:/home/pheonix/ros2_ws/install/launch_ros/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pheonix/ros2_ws/build/teleop_twist_joy
+[4.740s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy' for CMake config files
+[4.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[4.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[4.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[4.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[4.745s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/lib'
+[4.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[4.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[4.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[4.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/bin'
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/lib/python3.12/site-packages'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/bin'
+[4.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[4.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[4.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[4.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[4.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[4.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[4.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_joy)
+[4.840s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy' for CMake module files
+[4.840s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy' for CMake config files
+[4.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'cmake_prefix_path')
+[4.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.ps1'
+[4.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.dsv'
+[4.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/cmake_prefix_path.sh'
+[4.842s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/lib'
+[4.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_joy', 'ld_library_path_lib')
+[4.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.ps1'
+[4.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.dsv'
+[4.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/hook/ld_library_path_lib.sh'
+[4.844s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/bin'
+[4.844s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/lib/pkgconfig/teleop_twist_joy.pc'
+[4.844s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/lib/python3.12/site-packages'
+[4.845s] Level 1:colcon.colcon_core.environment:checking '/home/pheonix/ros2_ws/install/teleop_twist_joy/bin'
+[4.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.ps1'
+[4.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv'
+[4.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.sh'
+[4.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.bash'
+[4.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/pheonix/ros2_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.zsh'
+[4.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pheonix/ros2_ws/install/teleop_twist_joy/share/colcon-core/packages/teleop_twist_joy)
+[4.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.850s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.860s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.888s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.888s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pheonix/ros2_ws/install/local_setup.ps1'
+[4.890s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pheonix/ros2_ws/install/_local_setup_util_ps1.py'
+[4.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pheonix/ros2_ws/install/setup.ps1'
+[4.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pheonix/ros2_ws/install/local_setup.sh'
+[4.908s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pheonix/ros2_ws/install/_local_setup_util_sh.py'
+[4.908s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pheonix/ros2_ws/install/setup.sh'
+[4.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pheonix/ros2_ws/install/local_setup.bash'
+[4.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pheonix/ros2_ws/install/setup.bash'
+[4.912s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pheonix/ros2_ws/install/local_setup.zsh'
+[4.913s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pheonix/ros2_ws/install/setup.zsh'

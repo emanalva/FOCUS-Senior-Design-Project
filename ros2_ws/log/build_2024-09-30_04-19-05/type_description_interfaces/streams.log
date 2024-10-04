@@ -1,0 +1,456 @@
+[0.082s] Invoking command in '/home/pheonix/ros2_ws/build/type_description_interfaces': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pheonix/ros2_ws/src/rcl_interfaces/type_description_interfaces -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/type_description_interfaces
+[0.275s] -- The C compiler identification is GNU 13.2.0
+[0.568s] -- The CXX compiler identification is GNU 13.2.0
+[0.652s] -- Detecting C compiler ABI info
+[0.962s] -- Detecting C compiler ABI info - done
+[0.983s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.984s] -- Detecting C compile features
+[0.985s] -- Detecting C compile features - done
+[1.013s] -- Detecting CXX compiler ABI info
+[1.196s] -- Detecting CXX compiler ABI info - done
+[1.202s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.202s] -- Detecting CXX compile features
+[1.203s] -- Detecting CXX compile features - done
+[1.231s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.531s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.911s] -- Found rosidl_core_generators: 0.2.0 (/opt/ros/jazzy/share/rosidl_core_generators/cmake)
+[1.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.110s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.312s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.770s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[3.772s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[3.774s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[3.777s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.722s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.900s] -- Found PythonExtra: /usr/bin/python3  
+[5.489s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.528s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[5.530s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[5.534s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.554s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.559s] -- Added test 'lint_cmake' to check CMake code style
+[5.563s] -- Added test 'xmllint' to check XML markup files
+[5.564s] -- Configuring done (5.5s)
+[5.620s] -- Generating done (0.0s)
+[5.623s] -- Build files have been written to: /home/pheonix/ros2_ws/build/type_description_interfaces
+[5.641s] Invoked command in '/home/pheonix/ros2_ws/build/type_description_interfaces' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/pheonix/ros2_ws/src/rcl_interfaces/type_description_interfaces -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/type_description_interfaces
+[5.642s] Invoking command in '/home/pheonix/ros2_ws/build/type_description_interfaces': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pheonix/ros2_ws/build/type_description_interfaces -- -j2 -l2
+[5.732s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.490s] [  1%] Built target type_description_interfaces__rosidl_generator_type_description
+[6.544s] [  1%] Built target ament_cmake_python_copy_type_description_interfaces
+[6.580s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.826s] [  2%] Built target type_description_interfaces__cpp
+[7.841s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.091s] [  4%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/field__description.c.o[0m
+[9.154s] [  5%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/field__functions.c.o[0m
+[9.222s] [  6%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/field__type_support.c.o[0m
+[9.305s] [  7%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/field_type__description.c.o[0m
+[9.385s] [  8%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/field_type__functions.c.o[0m
+[9.492s] [  9%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/field_type__type_support.c.o[0m
+[9.554s] [ 10%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/individual_type_description__description.c.o[0m
+[9.669s] [ 11%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/individual_type_description__functions.c.o[0m
+[9.764s] [ 12%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/individual_type_description__type_support.c.o[0m
+[9.837s] [ 13%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/key_value__description.c.o[0m
+[9.921s] [ 14%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/key_value__functions.c.o[0m
+[10.007s] [ 15%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/key_value__type_support.c.o[0m
+[10.102s] [ 17%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/type_description__description.c.o[0m
+[10.197s] [ 18%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/type_description__functions.c.o[0m
+[10.259s] [ 19%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/type_description__type_support.c.o[0m
+[10.330s] [ 20%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/type_source__description.c.o[0m
+[10.452s] [ 21%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/type_source__functions.c.o[0m
+[10.537s] [ 22%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/msg/detail/type_source__type_support.c.o[0m
+[10.588s] [ 23%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/srv/detail/get_type_description__description.c.o[0m
+[10.686s] [ 24%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/srv/detail/get_type_description__functions.c.o[0m
+[10.750s] [ 25%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_c.dir/rosidl_generator_c/type_description_interfaces/srv/detail/get_type_description__type_support.c.o[0m
+[10.804s] [ 26%] [32m[1mLinking C shared library libtype_description_interfaces__rosidl_generator_c.so[0m
+[10.862s] [ 26%] Built target type_description_interfaces__rosidl_generator_c
+[11.174s] running egg_info
+[11.176s] creating type_description_interfaces.egg-info
+[11.197s] writing type_description_interfaces.egg-info/PKG-INFO
+[11.198s] writing dependency_links to type_description_interfaces.egg-info/dependency_links.txt
+[11.200s] writing top-level names to type_description_interfaces.egg-info/top_level.txt
+[11.200s] writing manifest file 'type_description_interfaces.egg-info/SOURCES.txt'
+[11.262s] reading manifest file 'type_description_interfaces.egg-info/SOURCES.txt'
+[11.262s] writing manifest file 'type_description_interfaces.egg-info/SOURCES.txt'
+[11.295s] [ 26%] Built target ament_cmake_python_build_type_description_interfaces_egg
+[11.311s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.643s] [ 28%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/type_description_interfaces/msg/field__type_support.cpp.o[0m
+[13.082s] [ 29%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/type_description_interfaces/msg/field_type__type_support.cpp.o[0m
+[13.389s] [ 30%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/type_description_interfaces/msg/individual_type_description__type_support.cpp.o[0m
+[13.709s] [ 31%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/type_description_interfaces/msg/key_value__type_support.cpp.o[0m
+[14.102s] [ 32%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/type_description_interfaces/msg/type_description__type_support.cpp.o[0m
+[14.420s] [ 34%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/type_description_interfaces/msg/type_source__type_support.cpp.o[0m
+[15.077s] [ 35%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/type_description_interfaces/srv/get_type_description__type_support.cpp.o[0m
+[15.957s] [ 36%] [32m[1mLinking CXX shared library libtype_description_interfaces__rosidl_typesupport_cpp.so[0m
+[16.133s] [ 36%] Built target type_description_interfaces__rosidl_typesupport_cpp
+[16.170s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[17.585s] [ 38%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/type_description_interfaces/msg/detail/field__type_support_c.cpp.o[0m
+[18.063s] [ 39%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/type_description_interfaces/msg/detail/field_type__type_support_c.cpp.o[0m
+[18.692s] [ 40%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/type_description_interfaces/msg/detail/individual_type_description__type_support_c.cpp.o[0m
+[19.373s] [ 41%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/type_description_interfaces/msg/detail/key_value__type_support_c.cpp.o[0m
+[19.888s] [ 42%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/type_description_interfaces/msg/detail/type_description__type_support_c.cpp.o[0m
+[20.243s] [ 43%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/type_description_interfaces/msg/detail/type_source__type_support_c.cpp.o[0m
+[20.666s] [ 44%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/type_description_interfaces/srv/detail/get_type_description__type_support_c.cpp.o[0m
+[21.149s] [ 45%] [32m[1mLinking CXX shared library libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[21.255s] [ 45%] Built target type_description_interfaces__rosidl_typesupport_fastrtps_c
+[21.283s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.322s] [ 47%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/type_description_interfaces/msg/detail/field__type_support.c.o[0m
+[22.444s] [ 48%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/type_description_interfaces/msg/detail/field_type__type_support.c.o[0m
+[22.615s] [ 50%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/type_description_interfaces/msg/detail/individual_type_description__type_support.c.o[0m
+[22.702s] [ 51%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/type_description_interfaces/msg/detail/key_value__type_support.c.o[0m
+[23.042s] [ 52%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/type_description_interfaces/msg/detail/type_description__type_support.c.o[0m
+[23.328s] [ 53%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/type_description_interfaces/msg/detail/type_source__type_support.c.o[0m
+[23.702s] [ 54%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/type_description_interfaces/srv/detail/get_type_description__type_support.c.o[0m
+[23.853s] [ 55%] [32m[1mLinking C shared library libtype_description_interfaces__rosidl_typesupport_introspection_c.so[0m
+[23.977s] [ 55%] Built target type_description_interfaces__rosidl_typesupport_introspection_c
+[24.363s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[25.265s] [ 57%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/field__type_support.cpp.o[0m
+[25.362s] [ 58%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/field_type__type_support.cpp.o[0m
+[25.467s] [ 59%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/individual_type_description__type_support.cpp.o[0m
+[26.362s] [ 60%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/key_value__type_support.cpp.o[0m
+[26.492s] [ 61%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/type_description__type_support.cpp.o[0m
+[26.756s] [ 62%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/msg/type_source__type_support.cpp.o[0m
+[26.821s] [ 63%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_description_interfaces/srv/get_type_description__type_support.cpp.o[0m
+[26.929s] [ 64%] [32m[1mLinking CXX shared library libtype_description_interfaces__rosidl_typesupport_c.so[0m
+[27.022s] [ 64%] Built target type_description_interfaces__rosidl_typesupport_c
+[27.028s] [ 65%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.608s] [ 67%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/type_description_interfaces/msg/detail/dds_fastrtps/field__type_support.cpp.o[0m
+[29.142s] [ 68%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/type_description_interfaces/msg/detail/dds_fastrtps/field_type__type_support.cpp.o[0m
+[29.748s] [ 69%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/type_description_interfaces/msg/detail/dds_fastrtps/individual_type_description__type_support.cpp.o[0m
+[30.301s] [ 70%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/type_description_interfaces/msg/detail/dds_fastrtps/key_value__type_support.cpp.o[0m
+[31.368s] [ 71%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/type_description_interfaces/msg/detail/dds_fastrtps/type_description__type_support.cpp.o[0m
+[32.089s] [ 72%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/type_description_interfaces/msg/detail/dds_fastrtps/type_source__type_support.cpp.o[0m
+[32.486s] [ 73%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/type_description_interfaces/srv/detail/dds_fastrtps/get_type_description__type_support.cpp.o[0m
+[33.902s] [ 74%] [32m[1mLinking CXX shared library libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.996s] [ 74%] Built target type_description_interfaces__rosidl_typesupport_fastrtps_cpp
+[34.028s] [ 75%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35.500s] [ 76%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/type_description_interfaces/msg/detail/field__type_support.cpp.o[0m
+[35.910s] [ 77%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/type_description_interfaces/msg/detail/field_type__type_support.cpp.o[0m
+[36.194s] [ 78%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/type_description_interfaces/msg/detail/individual_type_description__type_support.cpp.o[0m
+[36.586s] [ 79%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/type_description_interfaces/msg/detail/key_value__type_support.cpp.o[0m
+[37.241s] [ 80%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/type_description_interfaces/msg/detail/type_description__type_support.cpp.o[0m
+[37.819s] [ 81%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/type_description_interfaces/msg/detail/type_source__type_support.cpp.o[0m
+[39.429s] [ 82%] [32mBuilding CXX object CMakeFiles/type_description_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/type_description_interfaces/srv/detail/get_type_description__type_support.cpp.o[0m
+[40.292s] [ 84%] [32m[1mLinking CXX shared library libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[40.422s] [ 84%] Built target type_description_interfaces__rosidl_typesupport_introspection_cpp
+[40.464s] [ 84%] Built target type_description_interfaces
+[40.481s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[43.150s] [ 85%] Built target type_description_interfaces__py
+[43.232s] [ 86%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_py.dir/rosidl_generator_py/type_description_interfaces/msg/_field_s.c.o[0m
+[43.548s] [ 87%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_py.dir/rosidl_generator_py/type_description_interfaces/msg/_field_type_s.c.o[0m
+[43.773s] [ 88%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_py.dir/rosidl_generator_py/type_description_interfaces/msg/_individual_type_description_s.c.o[0m
+[44.073s] [ 89%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_py.dir/rosidl_generator_py/type_description_interfaces/msg/_key_value_s.c.o[0m
+[44.358s] [ 90%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_py.dir/rosidl_generator_py/type_description_interfaces/msg/_type_description_s.c.o[0m
+[44.540s] [ 91%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_py.dir/rosidl_generator_py/type_description_interfaces/msg/_type_source_s.c.o[0m
+[44.759s] [ 92%] [32mBuilding C object CMakeFiles/type_description_interfaces__rosidl_generator_py.dir/rosidl_generator_py/type_description_interfaces/srv/_get_type_description_s.c.o[0m
+[45.050s] [ 93%] [32m[1mLinking C shared library libtype_description_interfaces__rosidl_generator_py.so[0m
+[45.186s] [ 93%] Built target type_description_interfaces__rosidl_generator_py
+[45.287s] [ 94%] [32mBuilding C object CMakeFiles/type_description_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/type_description_interfaces/_type_description_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[46.348s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[46.439s] [ 95%] Built target type_description_interfaces_s__rosidl_typesupport_fastrtps_c
+[46.526s] [ 96%] [32mBuilding C object CMakeFiles/type_description_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/type_description_interfaces/_type_description_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[46.772s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[46.834s] [ 97%] Built target type_description_interfaces_s__rosidl_typesupport_introspection_c
+[47.115s] [ 98%] [32mBuilding C object CMakeFiles/type_description_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/type_description_interfaces/_type_description_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[47.305s] [100%] [32m[1mLinking C shared module rosidl_generator_py/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_c.so[0m
+[47.346s] [100%] Built target type_description_interfaces_s__rosidl_typesupport_c
+[47.372s] Invoked command in '/home/pheonix/ros2_ws/build/type_description_interfaces' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pheonix/ros2_ws/build/type_description_interfaces -- -j2 -l2
+[49.751s] Invoking command in '/home/pheonix/ros2_ws/build/type_description_interfaces': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pheonix/ros2_ws/build/type_description_interfaces
+[49.761s] -- Install configuration: ""
+[49.761s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/ament_index/resource_index/rosidl_interfaces/type_description_interfaces
+[49.762s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/Field.json
+[49.763s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/FieldType.json
+[49.763s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/IndividualTypeDescription.json
+[49.763s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/KeyValue.json
+[49.763s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/TypeDescription.json
+[49.763s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/TypeSource.json
+[49.763s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/srv/GetTypeDescription.json
+[49.763s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces
+[49.763s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg
+[49.763s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/individual_type_description.h
+[49.764s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_c__visibility_control.h
+[49.764s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail
+[49.764s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__struct.h
+[49.764s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__type_support.c
+[49.771s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__description.c
+[49.771s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__functions.c
+[49.771s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__functions.c
+[49.771s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__functions.c
+[49.771s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__functions.h
+[49.771s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__type_support.c
+[49.771s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__description.c
+[49.771s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__type_support.c
+[49.772s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h
+[49.772s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__type_support.h
+[49.773s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__functions.h
+[49.773s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__description.c
+[49.773s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__type_support.h
+[49.777s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.h
+[49.777s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__functions.h
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__type_support.c
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__struct.h
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__type_support.c
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__functions.c
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__functions.h
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__type_support.h
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__description.c
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__type_support.h
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.h
+[49.778s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__functions.h
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__type_support.c
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__type_support.h
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__functions.c
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__description.c
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__functions.c
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__description.c
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__type_support.h
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__functions.h
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/field.h
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/type_description.h
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/field_type.h
+[49.779s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/type_source.h
+[49.780s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/key_value.h
+[49.780s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv
+[49.780s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.h
+[49.781s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail
+[49.781s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__functions.c
+[49.782s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.h
+[49.782s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.h
+[49.782s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.c
+[49.782s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__description.c
+[49.782s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__functions.h
+[49.782s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/environment/library_path.sh
+[49.782s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/environment/library_path.dsv
+[49.782s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_generator_c.so
+[49.782s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_generator_c.so" to ""
+[49.782s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces
+[49.783s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg
+[49.783s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[49.783s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail
+[49.783s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__rosidl_typesupport_fastrtps_c.h
+[49.783s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[49.783s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__rosidl_typesupport_fastrtps_c.h
+[49.783s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__rosidl_typesupport_fastrtps_c.h
+[49.785s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__rosidl_typesupport_fastrtps_c.h
+[49.785s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__rosidl_typesupport_fastrtps_c.h
+[49.785s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv
+[49.785s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail
+[49.785s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__rosidl_typesupport_fastrtps_c.h
+[49.785s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so
+[49.785s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[49.785s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces
+[49.785s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg
+[49.785s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail
+[49.785s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__type_support.c
+[49.785s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__rosidl_typesupport_introspection_c.h
+[49.785s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__rosidl_typesupport_introspection_c.h
+[49.786s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__type_support.c
+[49.786s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__type_support.c
+[49.786s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__type_support.c
+[49.786s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__type_support.c
+[49.786s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[49.790s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__rosidl_typesupport_introspection_c.h
+[49.790s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__type_support.c
+[49.790s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__rosidl_typesupport_introspection_c.h
+[49.790s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__rosidl_typesupport_introspection_c.h
+[49.791s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[49.791s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv
+[49.791s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail
+[49.792s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.c
+[49.792s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__rosidl_typesupport_introspection_c.h
+[49.792s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so
+[49.792s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[49.792s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_c.so
+[49.792s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_c.so" to ""
+[49.792s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces
+[49.792s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg
+[49.792s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[49.792s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/individual_type_description.hpp
+[49.799s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/type_source.hpp
+[49.799s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail
+[49.799s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__type_support.hpp
+[49.799s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__struct.hpp
+[49.799s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__struct.hpp
+[49.799s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__type_support.hpp
+[49.799s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__type_support.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__traits.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__builder.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__builder.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__builder.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__builder.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__builder.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__traits.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__type_support.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__traits.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__type_support.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__struct.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__builder.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__traits.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__type_support.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__traits.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__traits.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/field.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/type_description.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/key_value.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/field_type.hpp
+[49.800s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/get_type_description.hpp
+[49.800s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__builder.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__struct.hpp
+[49.800s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__traits.hpp
+[49.800s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces
+[49.800s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg
+[49.801s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/dds_fastrtps
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__rosidl_typesupport_fastrtps_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__rosidl_typesupport_fastrtps_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__rosidl_typesupport_fastrtps_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__rosidl_typesupport_fastrtps_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__rosidl_typesupport_fastrtps_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[49.801s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv
+[49.801s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/dds_fastrtps
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__rosidl_typesupport_fastrtps_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[49.801s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[49.801s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces
+[49.801s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg
+[49.801s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__type_support.cpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__type_support.cpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__rosidl_typesupport_introspection_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__type_support.cpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__rosidl_typesupport_introspection_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field__rosidl_typesupport_introspection_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__rosidl_typesupport_introspection_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_source__type_support.cpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__type_support.cpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/key_value__type_support.cpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__rosidl_typesupport_introspection_cpp.hpp
+[49.801s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv
+[49.801s] -- Up-to-date: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__rosidl_typesupport_introspection_cpp.hpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/include/type_description_interfaces/type_description_interfaces/srv/detail/get_type_description__type_support.cpp
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so
+[49.801s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[49.801s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so
+[49.801s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so" to ""
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/environment/pythonpath.sh
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/environment/pythonpath.dsv
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces-2.2.0-py3.12.egg-info
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces-2.2.0-py3.12.egg-info/SOURCES.txt
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces-2.2.0-py3.12.egg-info/dependency_links.txt
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces-2.2.0-py3.12.egg-info/PKG-INFO
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces-2.2.0-py3.12.egg-info/top_level.txt
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_c.so
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/_type_description_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/_type_description_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_type_source.py
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_field_type_s.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_individual_type_description_s.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_type_description.py
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_individual_type_description.py
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_field_type.py
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_field_s.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_field.py
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_key_value.py
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_key_value_s.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_type_source_s.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/__init__.py
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_type_description_s.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/_type_description_interfaces_s.ep.rosidl_typesupport_c.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/__init__.py
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_introspection_c.so
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/srv
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/srv/_get_type_description_s.c
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/srv/__init__.py
+[49.802s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/srv/_get_type_description.py
+[49.856s] Listing '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/__init__.py'...
+[49.856s] Listing '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/__init__.py'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_field.py'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_field_type.py'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_individual_type_description.py'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_key_value.py'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_type_description.py'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/msg/_type_source.py'...
+[49.856s] Listing '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/srv'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/srv/__init__.py'...
+[49.856s] Compiling '/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/srv/_get_type_description.py'...
+[49.864s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[49.866s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[49.866s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_introspection_c.so
+[49.866s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[49.866s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_c.so
+[49.866s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/python3.12/site-packages/type_description_interfaces/type_description_interfaces_s__rosidl_typesupport_c.so" to ""
+[49.866s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_generator_py.so
+[49.866s] -- Set non-toolchain portion of runtime path of "/home/pheonix/ros2_ws/install/type_description_interfaces/lib/libtype_description_interfaces__rosidl_generator_py.so" to ""
+[49.867s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/Field.idl
+[49.867s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/FieldType.idl
+[49.867s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/IndividualTypeDescription.idl
+[49.867s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/KeyValue.idl
+[49.868s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/TypeDescription.idl
+[49.868s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/TypeSource.idl
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/srv/GetTypeDescription.idl
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/Field.msg
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/FieldType.msg
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/IndividualTypeDescription.msg
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/KeyValue.msg
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/TypeDescription.msg
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/msg/TypeSource.msg
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/srv/GetTypeDescription.srv
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/ament_index/resource_index/package_run_dependencies/type_description_interfaces
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/ament_index/resource_index/parent_prefix_path/type_description_interfaces
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/environment/ament_prefix_path.sh
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/environment/ament_prefix_path.dsv
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/environment/path.sh
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/environment/path.dsv
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/local_setup.bash
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/local_setup.sh
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/local_setup.zsh
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/local_setup.dsv
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/package.dsv
+[49.869s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/ament_index/resource_index/packages/type_description_interfaces
+[49.871s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/export_type_description_interfaces__rosidl_generator_cExport.cmake
+[49.871s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/export_type_description_interfaces__rosidl_generator_cExport-noconfig.cmake
+[49.871s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/export_type_description_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[49.871s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/export_type_description_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[49.871s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[49.873s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[49.873s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfaces__rosidl_typesupport_cExport.cmake
+[49.873s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[49.873s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/export_type_description_interfaces__rosidl_generator_cppExport.cmake
+[49.873s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/export_type_description_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/export_type_description_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfaces__rosidl_typesupport_cppExport.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/export_type_description_interfaces__rosidl_generator_pyExport.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/export_type_description_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/rosidl_cmake-extras.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfacesConfig.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/cmake/type_description_interfacesConfig-version.cmake
+[49.879s] -- Installing: /home/pheonix/ros2_ws/install/type_description_interfaces/share/type_description_interfaces/package.xml
+[49.883s] Invoked command in '/home/pheonix/ros2_ws/build/type_description_interfaces' returned '0': AMENT_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pheonix/ros2_ws/install/service_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/home/pheonix/ros2_ws/install/turtlesim:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pheonix/ros2_ws/install/service_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pheonix/ros2_ws/install/service_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pheonix/ros2_ws/build/type_description_interfaces

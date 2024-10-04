@@ -1,0 +1,8 @@
+In file included from [01m[K/home/pheonix/ros2_ws/src/robot_state_publisher/src/robot_state_publisher.cpp:31[m[K:
+[01m[K/home/pheonix/ros2_ws/src/robot_state_publisher/include/robot_state_publisher/robot_state_publisher.hpp:48:10:[m[K [01;31m[Kfatal error: [m[Kurdf/model.hpp: No such file or directory
+   48 | #include [01;31m[K"urdf/model.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_state_publisher_node.dir/build.make:76: CMakeFiles/robot_state_publisher_node.dir/src/robot_state_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/robot_state_publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

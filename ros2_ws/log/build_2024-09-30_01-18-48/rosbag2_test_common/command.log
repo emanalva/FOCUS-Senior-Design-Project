@@ -1,0 +1,1 @@
+Invoking command in '/home/pheonix/ros2_ws/build/rosbag2_test_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/rosbag2_test_common -- -j2 -l2

@@ -1,0 +1,14 @@
+[0.022s] Invoking command in '/home/pheonix/ros2_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/builtin_interfaces -- -j2 -l2
+[0.066s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.154s] -- Found rosidl_core_generators: 0.2.0 (/opt/ros/jazzy/share/rosidl_core_generators/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.177s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.195s] -- Found rosidl_adapter: 4.6.3 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.199s] -- Configuring incomplete, errors occurred!
+[0.199s] [31mCMake Error at CMakeLists.txt:20 (target_link_libraries):
+[0.199s]   Cannot specify link libraries for target "builtin_interfaces" which is not
+[0.199s]   built by this project.
+[0.199s] 
+[0.199s] [0m
+[0.207s] gmake: *** [Makefile:1085: cmake_check_build_system] Error 1
+[0.209s] Invoked command in '/home/pheonix/ros2_ws/build/builtin_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/builtin_interfaces -- -j2 -l2

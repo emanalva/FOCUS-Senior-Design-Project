@@ -1,0 +1,10 @@
+[0.148s] Invoking command in '/home/pheonix/ros2_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joy -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy
+[0.164s] [33mCMake Warning:
+[0.164s]   Ignoring extra path from command line:
+[0.164s] 
+[0.164s]    "/home/pheonix/ros2_ws/src/joy"
+[0.164s] 
+[0.164s] [0m
+[0.165s] [0mCMake Error: The source directory "/home/pheonix/ros2_ws/src/joy" does not appear to contain CMakeLists.txt.
+[0.165s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.176s] Invoked command in '/home/pheonix/ros2_ws/build/joy' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joy -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy

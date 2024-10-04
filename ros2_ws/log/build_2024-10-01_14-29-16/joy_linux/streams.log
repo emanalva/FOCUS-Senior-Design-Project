@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/home/pheonix/ros2_ws/build/joy_linux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy_linux
+[0.029s] [33mCMake Warning:
+[0.029s]   Ignoring extra path from command line:
+[0.029s] 
+[0.029s]    "/home/pheonix/ros2_ws/src/joystick_drivers/joy_linux"
+[0.029s] 
+[0.029s] [0m
+[0.029s] [0mCMake Error: The source directory "/home/pheonix/ros2_ws/src/joystick_drivers/joy_linux" does not appear to contain CMakeLists.txt.
+[0.029s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.049s] Invoked command in '/home/pheonix/ros2_ws/build/joy_linux' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joystick_drivers/joy_linux -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy_linux
+[0.056s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable

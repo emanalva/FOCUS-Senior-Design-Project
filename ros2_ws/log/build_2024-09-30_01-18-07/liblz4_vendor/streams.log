@@ -1,0 +1,23 @@
+[0.025s] Invoking command in '/home/pheonix/ros2_ws/build/liblz4_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/rosbag2/liblz4_vendor -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/liblz4_vendor
+[0.036s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.205s] -- Configuring incomplete, errors occurred!
+[0.205s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.205s]   By not providing "Findament_cmake_vendor_package.cmake" in
+[0.205s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.205s]   configuration file provided by "ament_cmake_vendor_package", but CMake did
+[0.205s]   not find one.
+[0.205s] 
+[0.205s]   Could not find a package configuration file provided by
+[0.205s]   "ament_cmake_vendor_package" with any of the following names:
+[0.205s] 
+[0.205s]     ament_cmake_vendor_packageConfig.cmake
+[0.205s]     ament_cmake_vendor_package-config.cmake
+[0.205s] 
+[0.205s]   Add the installation prefix of "ament_cmake_vendor_package" to
+[0.205s]   CMAKE_PREFIX_PATH or set "ament_cmake_vendor_package_DIR" to a directory
+[0.205s]   containing one of the above files.  If "ament_cmake_vendor_package"
+[0.205s]   provides a separate development package or SDK, be sure it has been
+[0.205s]   installed.
+[0.205s] 
+[0.205s] [0m
+[0.223s] Invoked command in '/home/pheonix/ros2_ws/build/liblz4_vendor' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/rosbag2/liblz4_vendor -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/liblz4_vendor
