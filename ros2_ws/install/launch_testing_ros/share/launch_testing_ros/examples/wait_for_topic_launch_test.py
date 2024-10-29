@@ -1,1 +1,0 @@
-/home/pheonix/ros2_ws/build/launch_testing_ros/test/examples/wait_for_topic_launch_test.py

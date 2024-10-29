@@ -1,6 +1,0 @@
-Invoking command in '/home/pheonix/ros2_ws/build/urdfdom_headers': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/urdfdom_headers -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/urdfdom_headers
-Invoked command in '/home/pheonix/ros2_ws/build/urdfdom_headers' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/urdfdom_headers -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/urdfdom_headers
-Invoking command in '/home/pheonix/ros2_ws/build/urdfdom_headers': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/urdfdom_headers -- -j2 -l2
-Invoked command in '/home/pheonix/ros2_ws/build/urdfdom_headers' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/urdfdom_headers -- -j2 -l2
-Invoking command in '/home/pheonix/ros2_ws/build/urdfdom_headers': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/urdfdom_headers
-Invoked command in '/home/pheonix/ros2_ws/build/urdfdom_headers' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/pheonix/ros2_ws/build/urdfdom_headers

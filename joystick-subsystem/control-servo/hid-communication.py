@@ -3,7 +3,7 @@ import serial
 import time
 
 # Set up communication with the Arduino
-arduino = serial.Serial('/dev/tty.usbmodem1424401', 9600)
+arduino = serial.Serial('/dev/tty.usbmodem142201', 9600)
 
 # Open the joystick HID device
 h = hid.device()
@@ -31,11 +31,14 @@ try:
                 last_button_time = current_time  # Update the last button time
 
                 if button_state == 1:  # Button pressed
-                    arduino.write(b'1')  # Send signal to Arduino
-                    print("Button pressed, sent '1' to Arduino")
-                elif button_state == 0:  # Button released
-                    arduino.write(b'0')  # Send signal to Arduino
-                    print("Button released, sent '0' to Arduino")
+                    press_time = time.time()  # Capture the press time
+                    arduino.write(f'{press_time}\n'.encode())  # Send the press time to Arduino
+                    print(f"Button pressed, sent press time {press_time} to Arduino")
+                
+                # Read the response from Arduino (the response time)
+                if arduino.in_waiting > 0:
+                    response = arduino.readline().decode('utf-8').strip()
+                    print(f"Arduino response: {response}")
                 
                 # Update the last button state
                 last_button_state = button_state

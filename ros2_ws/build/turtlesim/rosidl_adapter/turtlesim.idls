@@ -1,8 +1,0 @@
-/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
-/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
-/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
-/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
-/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
-/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
-/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
-/home/pheonix/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

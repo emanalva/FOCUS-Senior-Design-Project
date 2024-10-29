@@ -1,2 +1,0 @@
-Invoking command in '/home/pheonix/ros2_ws/build/liblz4_vendor': /usr/bin/cmake /home/pheonix/ros2_ws/src/rosbag2/liblz4_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/liblz4_vendor
-Invoked command in '/home/pheonix/ros2_ws/build/liblz4_vendor' returned '1': /usr/bin/cmake /home/pheonix/ros2_ws/src/rosbag2/liblz4_vendor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/liblz4_vendor

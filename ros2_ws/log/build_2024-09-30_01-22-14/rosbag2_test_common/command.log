@@ -1,1 +1,0 @@
-Invoking command in '/home/pheonix/ros2_ws/build/rosbag2_test_common': /usr/bin/cmake /home/pheonix/ros2_ws/src/rosbag2/rosbag2_test_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/rosbag2_test_common

@@ -1,3 +1,0 @@
-Invoking command in '/home/pheonix/ros2_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy
-Invoked command in '/home/pheonix/ros2_ws/build/joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pheonix/ros2_ws/src/joystick_drivers/joy -DCMAKE_INSTALL_PREFIX=/home/pheonix/ros2_ws/install/joy
-Invoking command in '/home/pheonix/ros2_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/joy -- -j2 -l2

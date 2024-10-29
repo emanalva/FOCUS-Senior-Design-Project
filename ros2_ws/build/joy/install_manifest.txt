@@ -1,6 +1,0 @@
-/home/pheonix/ros2_ws/install/joy/lib/libjoy.so
-/home/pheonix/ros2_ws/install/joy/lib/libgame_controller.so
-/home/pheonix/ros2_ws/install/joy/share/joy/cmake/export_joyExport.cmake
-/home/pheonix/ros2_ws/install/joy/share/joy/cmake/export_joyExport-noconfig.cmake
-/home/pheonix/ros2_ws/install/joy/share/joy/cmake/export_game_controllerExport.cmake
-/home/pheonix/ros2_ws/install/joy/share/joy/cmake/export_game_controllerExport-noconfig.cmake

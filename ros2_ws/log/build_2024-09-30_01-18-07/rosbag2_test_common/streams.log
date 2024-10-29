@@ -1,9 +1,0 @@
-[0.023s] Invoking command in '/home/pheonix/ros2_ws/build/rosbag2_test_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/rosbag2_test_common -- -j2 -l2
-[0.095s] Built target ament_cmake_python_copy_rosbag2_test_common
-[0.245s] running egg_info
-[0.253s] writing rosbag2_test_common.egg-info/PKG-INFO
-[0.255s] writing dependency_links to rosbag2_test_common.egg-info/dependency_links.txt
-[0.255s] writing top-level names to rosbag2_test_common.egg-info/top_level.txt
-[0.291s] reading manifest file 'rosbag2_test_common.egg-info/SOURCES.txt'
-[0.291s] writing manifest file 'rosbag2_test_common.egg-info/SOURCES.txt'
-[0.317s] Built target ament_cmake_python_build_rosbag2_test_common_egg

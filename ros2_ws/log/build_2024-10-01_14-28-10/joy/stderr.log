@@ -1,3 +1,0 @@
-[0mCMake Error: The source directory "/home/pheonix/ros2_ws/src/joystick_drivers/joy" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.[0m
-gmake: *** [Makefile:431: cmake_check_build_system] Error 1

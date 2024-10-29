@@ -1,5 +1,0 @@
-[0.196s] Invoking command in '/home/pheonix/ros2_ws/build/joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/joy -- -j2 -l2
-[0.256s] [0mCMake Error: The source directory "/home/pheonix/ros2_ws/src/joystick_drivers/joy" does not exist.
-[0.256s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.256s] gmake: *** [Makefile:431: cmake_check_build_system] Error 1
-[0.258s] Invoked command in '/home/pheonix/ros2_ws/build/joy' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pheonix/ros2_ws/build/joy -- -j2 -l2

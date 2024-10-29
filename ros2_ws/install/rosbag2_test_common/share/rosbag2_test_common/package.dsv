@@ -1,6 +1,0 @@
-source;share/rosbag2_test_common/hook/cmake_prefix_path.ps1
-source;share/rosbag2_test_common/hook/cmake_prefix_path.dsv
-source;share/rosbag2_test_common/hook/cmake_prefix_path.sh
-source;share/rosbag2_test_common/hook/pythonpath.ps1
-source;share/rosbag2_test_common/hook/pythonpath.dsv
-source;share/rosbag2_test_common/hook/pythonpath.sh
