@@ -8,7 +8,7 @@
 Contains documents and design files related to the joystick controller subsystem, including schematics, PCB layouts, and firmware.
 
 #### [current-sensor](./current-sensor/)
-Includes design documents for the motor control subsystem such as schematics.
+Includes design documents for the custom Current Sensor PCB.
 
 <!-- #### [motor-subsystem](./motor-subsystem/)
 Includes design documents for the motor control subsystem such as schematics.
