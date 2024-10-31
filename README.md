@@ -22,5 +22,4 @@ The comprehensive final report summarizing all aspects of the project for Senior
 #### [Presentations](./Presentations/) ADD SLIDES OR SOMETHING
 Slides and materials for mid-term and final presentations, as well as any additional visual aids or demonstration content. -->
 
-<p align="right">FOCUS :tm: </p>
-
+© 2024 FOCUS
