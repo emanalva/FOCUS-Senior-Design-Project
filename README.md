@@ -1,4 +1,4 @@
-# FOCUS-Senior-Design-Project
+# Home-Owned Robotic Arm Senior Design Project
 
 ## Repository to store all project documents for our senior design project
 
