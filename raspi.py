@@ -116,7 +116,7 @@ def main():
                 scale_value(joystick2_y)
             )
 
-        elif event.type == ecodes.EV_KEY:
+        if event.type == ecodes.EV_KEY:
             key_event = categorize(event)
 
             if key_event.event.value == 1:  # Button pressed
@@ -125,7 +125,6 @@ def main():
                     if button_code == 288:
                         button_press_times[button_code] = current_time
                         print(f"Button {button_code} pressed")
-                        time.sleep(0.1) #Delay before beginning to send CAN codes
 
                     send_can_message1(1, BUTTON_CAN_IDS[button_code])
 
@@ -137,10 +136,8 @@ def main():
                         print(f"Button {button_code} released at {current_time}. Pressed for {press_duration:.4f} seconds")
                         del button_press_times[button_code]  # Remove the stored press time after release
                     if button_code == 288 and press_duration > 2:
-                        time.sleep(0.1)
                         send_can_message1(3, BUTTON_CAN_IDS[button_code])
                     else:
-                        time.sleep(0.1)
                         send_can_message1(0, BUTTON_CAN_IDS[button_code])
 
         time.sleep(0.1)  # Add delay between checks to reduce CPU load
