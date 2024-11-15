@@ -54,6 +54,7 @@ def send_can_message(x1, y1, x2, y2):
     )
     try:
         bus.send(message)
+        time.sleep(0.01)
         print(f'Sent: {message}')
     except can.CanError:
         print("Message NOT sent")
@@ -67,6 +68,7 @@ def send_can_message1(data, can_id):
     )
     try:
         bus.send(message)
+        time.sleep(.01)
         print(f'Sent: {message}')
     except can.CanError:
         print(f"Message NOT sent for CAN ID {can_id}")
@@ -85,6 +87,8 @@ def main():
     for event in joystick.read_loop():
         current_time = time.time()  # Get current time in seconds
 
+        print("1")
+
         if current_time - start_time > record_duration and xnt == 1:
             print("Max record duration reached!")
             xnt = 0  # Stop recording after 30 seconds
@@ -92,7 +96,7 @@ def main():
 
         if event.type == ecodes.EV_ABS:
             abs_event = categorize(event)
-
+            print("2")
             # Joystick 1
             if abs_event.event.code == ecodes.ABS_X:
                 joystick1_x = abs_event.event.value
@@ -115,6 +119,7 @@ def main():
                 scale_value(joystick2_x),
                 scale_value(joystick2_y)
             )
+            print("3")
 
         if event.type == ecodes.EV_KEY:
             key_event = categorize(event)
@@ -140,7 +145,7 @@ def main():
                     else:
                         send_can_message1(0, BUTTON_CAN_IDS[button_code])
 
-        time.sleep(0.1)  # Add delay between checks to reduce CPU load
+        #time.sleep(0.1)  # Add delay between checks to reduce CPU load
 
 if __name__ == "__main__":
     main()
