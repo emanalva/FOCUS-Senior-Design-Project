@@ -135,14 +135,17 @@ def main():
 
             elif key_event.event.value == 0:  # Button released
                 button_code = key_event.event.code
+                time.sleep(0.01) # Debounce delay
                 if button_code in BUTTON_CAN_IDS:
                     if button_code in button_press_times:
                         press_duration = (current_time - button_press_times[button_code])
                         print(f"Button {button_code} released at {current_time}. Pressed for {press_duration:.4f} seconds")
                         del button_press_times[button_code]  # Remove the stored press time after release
                     if button_code == 288 and press_duration > 2:
+                       # time.sleep(0.01)
                         send_can_message1(3, BUTTON_CAN_IDS[button_code])
                     else:
+                       # time.sleep(0.01)
                         send_can_message1(0, BUTTON_CAN_IDS[button_code])
 
         #time.sleep(0.1)  # Add delay between checks to reduce CPU load
