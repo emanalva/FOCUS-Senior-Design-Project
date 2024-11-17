@@ -30,7 +30,7 @@ AS5600 as5600;
 #define ENA 14
 #define DIR 12
 #define PUL 13
-#define MOT 0 //G1 - 1, G2 - 2, G3 - 0
+#define MOT 1 //G1 - 1, G2 - 2, G3 - 0
 // int default = 0; // default positioning for motor
 
 // Encoder
@@ -153,16 +153,7 @@ void setup()
 // ********************************************************
 void loop() 
 {
-
- // Serial.println("Loop");
-  // Check data from peripherals
-  // encData();
-  // Serial.println("Encoder data: ");
-  // Serial.println(data2);
-  // sensorData();
-  //sendCAN(0x050, 1, int(data2), 0);
-  //delay(500);
-  // Check for CAN messages
+  //Recieve CAN messages
   recieveCAN();
   delay(500);
   
@@ -218,7 +209,7 @@ void recieveCAN()
     Serial.println("Msg okay!");
     // ********************************************************
     // Joystick CAN ID
-    if (canMsg.can_id == RAS || canMsg.can_id == 0x050) 
+    if (canMsg.can_id == RAS) 
     {
       int receivedValue = canMsg.data[MOT];
       Serial.print("Received: ");
@@ -242,17 +233,20 @@ void recieveCAN()
     // ********************************************************
     // ********************************************************
     // E-stop CAN ID, when recieved stops all ESP32 movement!
-    if(canMsg.can_id == EST && canMsg.data[0] == 1)
+    if(canMsg.can_id == EST)
     {
       Serial.print("Freeze!");
+      receivedValue = canMsg.data[0];
+      drive(receivedValue);
       eStopTriggered = true; // Set the flag
-      freeze();      
+      delay(3000); // Three second delay before unfreezing
+     // freeze();      
     }
     // ********************************************************
-    //End Effector
+    // End Effector
     if(canMsg.can_id == 0x308)
     {
-      //Flip based on if end effectr is open or closed
+      // Flip based on if end effectr is open or closed
       if(digitalRead(END) == HIGH)
       {
         digitalWrite(END, LOW);
@@ -267,6 +261,8 @@ void recieveCAN()
     // Record/replay data
     if(canMsg.can_id == REP)
     {
+      delay(10); // Debounce
+
       // Button is being pressed to record
       // Population of array can be found in the RAS if() above
       if(canMsg.data[0] != 3)
@@ -307,7 +303,7 @@ void recieveCAN()
       }
     }
     // ********************************************************
-   // delay(100);
+   //delay(100);
   }
   // ********************************************************
 }
@@ -445,7 +441,8 @@ void drive(int val)
   {
     if (eStopTriggered) 
     {
-        freeze();
+        //freeze();
+        val = 0;
         return; // Exit immediately if E-stop is triggered
     }
     pull++;
@@ -488,6 +485,9 @@ void drive(int val)
       Serial.println(val);
       // delay(100);
     }
+      //Check sensor and encoder data
+    sensorData();
+    encData();
 /*
     if(pull > 30)
     {
@@ -495,14 +495,15 @@ void drive(int val)
     }*/
   }
 
-  delay(300); //Delay for middle axis(G2), which steps at a different rate then the other axes. 
+  delay(500); //Delay for middle axis(G2), which steps at a different rate then the other axes. 
 
    // Can frame sent, move motor backwards
   while(val < 128 && val > 0 && canMsg.can_id != EST)
   {
     if (eStopTriggered) 
     {
-      freeze();
+      //freeze();
+      val = 0;
       return; // Exit immediately if E-stop is triggered
     }
     pull++;
@@ -544,17 +545,17 @@ void drive(int val)
       Serial.print("Motor Value: ");
       Serial.println(val);
       //delay(100);
-    }
-/*
-    if(pull > 30)
-    {
-      break;
-    }*/
+    } 
+    //Check sensor and encoder data
+    sensorData();
+    encData();
+
   }
 
   if (eStopTriggered) 
   {
-      freeze();
+      //freeze();
+      val = 0;
       return; // Exit immediately if E-stop is triggered
   }
 
@@ -732,12 +733,13 @@ void freeze()
   // Wait 3 seconds to reset
   delay(3000);
   // Reset motors back to default state! This will need to record where the motors are. Reset them to 0? We'll have to record data.
-  toDefault();
+  //toDefault();
 }
 // ********************************************************
 
 // ********************************************************
 // Reset motor to default positioning
+/*
 void toDefault()
 {
   Serial.println("returning to default");
@@ -747,9 +749,9 @@ void toDefault()
   // drive motor back that amount of steps via for-loop
   float steps; 
 
- /* if(data2 != 0)
+  if(data2 != 0)
   {
-    steps = data2/1.8; */
+    steps = data2/1.8; 
     steps = 200;
 
     // Drive motor back to correct position
@@ -764,7 +766,7 @@ void toDefault()
       delayMicroseconds(1000);
     }
   //}
-}
+}*/
 // ********************************************************
 
 // ********************************************************
