@@ -11,6 +11,15 @@ CAN_INTERFACE = 'can0'  # Change to your CAN interface
 # Initialize the joystick device
 joystick = InputDevice(JOYSTICK_DEVICE)
 
+# Define encoder/sensor data
+g1enc = 0
+g1cur = 0
+g2enc = 0
+g2cur = 0
+g3enc = 0
+g3cur = 0
+
+
 # Initialize the CAN bus
 bus = can.Bus(interface='socketcan', channel='can0', bitrate=500000, poll_interval=0.01, monitor=False, timing=None)
 db = cantools.database.load_file('******_dbc.dbc') #path of .dbc file
