@@ -131,6 +131,7 @@ def main():
     global cnt, xnt, tm, arr1, arr2, arr3, arr4
 
     for event in joystick.read_loop():
+        receive_can()
         current_time = time.time()  # Get current time in seconds
 
         if current_time - start_time > record_duration and xnt == 1:
@@ -192,8 +193,6 @@ def main():
                     else:
                         time.sleep(0.1)
                         send_can_message1(0, BUTTON_CAN_IDS[button_code])
-
-        time.sleep(0.1)  # Add delay between checks to reduce CPU load
-
+        
 if __name__ == "__main__":
     main()
