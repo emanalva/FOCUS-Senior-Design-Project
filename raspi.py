@@ -98,20 +98,26 @@ def receive_can():
             if message.arbitration_id == 0x100: # Left-most node
                 g1enc = message.data
                 print(f"Processing Encoder G1 data: {message.data}")
-            elif message.arbitration_id == 0x150:
+            elif message.arbitration_id == 0x150:    # This code should prevent motors moving when it detects a spike
                 g1cur = message.data
+                if g1cur == 200:    # CHANGE THIS VALUE
+                    send_can_message(0, 0, 0, 0)
                 print(f"Processing Sensor G1 data: {message.data}")
             elif message.arbitration_id == 0x200: # Middle node
                 g2enc = message.data
                 print(f"Processing Encoder G2 data: {message.data}")
             elif message.arbitration_id == 0x250:
                 g2cur = message.data
+                if g1cur == 200:
+                    send_can_message(0, 0, 0, 0)
                 print(f"Processing Sensor G2 data:: {message.data}")
             elif message.arbitration_id == 0x300: # Right-most node
                 g3enc = message.data
                 print(f"Processing Encoder G3 data: {message.data}")
             elif message.arbitration_id == 0x350:
                 g3cur = message.data
+                if g1cur == 200:
+                    send_can_message(0, 0, 0, 0)
                 print(f"Processing Sensor G3 data:: {message.data}")
     except KeyboardInterrupt:
         print("Exiting...")
